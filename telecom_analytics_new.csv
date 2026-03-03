@@ -1,0 +1,1501 @@
+customer_id,age,contract_type,internet_service,monthly_charges,tenure_months,payment_method,support_calls,data_usage_gb,churn
+1,56,Monthly,DSL,60.32,69,Mailed Check,1,165.4,Yes
+2,69,Monthly,Fiber,103.36,30,Credit Card,1,202.9,No
+3,46,One year,Fiber,101.47,68,Mailed Check,0,10.7,No
+4,32,Monthly,Fiber,81.18,29,Credit Card,3,153.1,No
+5,60,Monthly,Fiber,57.35,68,Electronic Check,1,178.6,No
+6,25,Monthly,Fiber,45.53,51,Credit Card,0,106.3,No
+7,38,Monthly,DSL,30.59,24,Electronic Check,0,202.2,No
+8,56,Monthly,Fiber,55.49,14,Electronic Check,1,72.3,No
+9,36,Monthly,Fiber,61.32,69,Bank Transfer,1,98.6,No
+10,40,Monthly,DSL,87.58,18,Credit Card,7,289.0,No
+11,28,Two year,Fiber,85.82,42,Credit Card,1,107.7,No
+12,28,Two year,DSL,27.01,57,Credit Card,4,107.2,No
+13,41,Monthly,DSL,59.53,12,Mailed Check,2,180.7,No
+14,70,Monthly,DSL,38.18,17,Bank Transfer,1,291.4,Yes
+15,53,One year,DSL,35.68,30,Bank Transfer,1,295.0,Yes
+16,57,Monthly,Fiber,102.73,23,Bank Transfer,2,176.0,Yes
+17,41,Monthly,DSL,24.19,1,Mailed Check,1,5.3,No
+18,20,Monthly,Fiber,61.92,32,Credit Card,3,270.7,No
+19,39,One year,Fiber,36.82,9,Credit Card,3,173.2,No
+20,70,One year,DSL,107.93,15,Credit Card,6,113.0,No
+21,19,Monthly,Fiber,75.7,28,Bank Transfer,2,249.6,No
+22,41,Monthly,DSL,43.14,24,Bank Transfer,2,123.0,No
+23,61,Monthly,DSL,70.24,60,Electronic Check,2,15.0,No
+24,47,One year,DSL,93.15,35,Mailed Check,0,247.2,No
+25,55,Monthly,None,115.81,27,Mailed Check,2,166.0,No
+26,19,Monthly,Fiber,42.04,20,Bank Transfer,3,104.8,No
+27,38,One year,Fiber,108.62,65,Electronic Check,2,79.0,No
+28,50,Monthly,DSL,113.43,49,Credit Card,2,180.2,No
+29,29,One year,Fiber,111.64,1,Bank Transfer,3,66.4,Yes
+30,39,Monthly,DSL,83.54,10,Mailed Check,1,100.5,No
+31,61,Monthly,DSL,82.98,47,Mailed Check,1,192.8,No
+32,42,Monthly,DSL,60.32,59,Mailed Check,2,265.1,No
+33,66,One year,Fiber,95.24,62,Credit Card,1,162.2,Yes
+34,44,Two year,Fiber,73.13,18,Mailed Check,1,228.9,No
+35,59,One year,Fiber,87.74,46,Credit Card,2,230.1,No
+36,45,Monthly,Fiber,62.85,32,Credit Card,1,201.0,Yes
+37,33,One year,DSL,93.15,27,Credit Card,3,77.5,No
+38,32,Monthly,Fiber,102.45,18,Bank Transfer,1,260.7,No
+39,64,Monthly,Fiber,34.64,39,Credit Card,3,133.7,No
+40,68,Two year,Fiber,103.29,49,Electronic Check,2,18.0,No
+41,61,Monthly,DSL,74.03,44,Mailed Check,2,77.2,No
+42,72,Monthly,DSL,104.47,54,Bank Transfer,0,230.8,No
+43,69,Monthly,Fiber,63.13,34,Mailed Check,2,25.4,No
+44,74,Monthly,Fiber,57.9,71,Credit Card,1,48.5,No
+45,20,Monthly,Fiber,111.51,36,Bank Transfer,5,209.8,No
+46,54,Monthly,Fiber,45.12,18,Electronic Check,2,268.3,No
+47,68,Monthly,DSL,104.42,38,Credit Card,3,192.0,No
+48,24,Two year,DSL,68.4,59,Mailed Check,5,70.6,No
+49,38,One year,Fiber,71.41,9,Electronic Check,3,20.8,No
+50,26,Monthly,Fiber,50.85,51,Credit Card,1,186.5,No
+51,56,Monthly,None,77.3,35,Electronic Check,2,19.0,No
+52,35,Monthly,Fiber,52.52,5,Credit Card,1,185.8,No
+53,21,Monthly,DSL,23.93,14,Bank Transfer,2,71.5,No
+54,42,Monthly,Fiber,47.2,30,Credit Card,1,271.9,Yes
+55,31,One year,Fiber,20.64,4,Bank Transfer,1,145.2,No
+56,67,Monthly,Fiber,117.84,39,Credit Card,1,71.1,No
+57,26,Monthly,DSL,116.57,64,Credit Card,5,256.7,No
+58,43,Monthly,None,59.52,25,Mailed Check,0,79.9,No
+59,70,Monthly,Fiber,92.84,28,Electronic Check,3,95.4,No
+60,19,Two year,Fiber,54.58,66,Electronic Check,1,251.1,No
+61,37,One year,Fiber,87.11,22,Electronic Check,2,96.1,No
+62,45,Monthly,Fiber,100.54,31,Credit Card,3,126.0,No
+63,64,Two year,Fiber,114.68,23,Credit Card,4,107.6,No
+64,24,Monthly,Fiber,60.02,48,Credit Card,0,39.3,No
+65,61,Two year,DSL,98.33,20,Bank Transfer,1,16.5,No
+66,25,One year,Fiber,46.59,38,Bank Transfer,3,218.7,No
+67,64,Monthly,Fiber,119.03,55,Mailed Check,1,195.3,No
+68,52,Monthly,None,22.58,68,Credit Card,0,88.3,No
+69,31,Monthly,Fiber,80.35,1,Electronic Check,3,92.2,Yes
+70,34,Monthly,None,85.95,7,Electronic Check,0,283.8,Yes
+71,53,One year,Fiber,88.8,57,Mailed Check,3,296.4,No
+72,67,Monthly,DSL,32.04,12,Electronic Check,2,144.7,No
+73,57,Monthly,DSL,113.85,5,Mailed Check,2,241.7,No
+74,21,One year,DSL,38.12,50,Credit Card,3,222.3,No
+75,19,Two year,None,82.28,42,Electronic Check,1,92.7,No
+76,23,Monthly,Fiber,42.27,12,Credit Card,3,22.3,No
+77,71,Monthly,None,50.72,18,Bank Transfer,0,47.1,No
+78,59,Monthly,Fiber,74.65,66,Electronic Check,2,252.3,Yes
+79,21,Monthly,Fiber,61.72,17,Bank Transfer,3,220.7,No
+80,71,Two year,Fiber,36.02,68,Electronic Check,1,201.0,Yes
+81,46,Monthly,DSL,37.09,71,Credit Card,0,43.5,No
+82,35,Monthly,Fiber,61.81,62,Mailed Check,3,193.8,No
+83,43,Monthly,DSL,95.73,41,Credit Card,0,232.8,No
+84,61,Monthly,DSL,109.8,34,Credit Card,1,258.9,No
+85,51,One year,DSL,28.41,70,Credit Card,0,8.9,No
+86,27,One year,DSL,59.31,45,Electronic Check,1,206.9,No
+87,53,Monthly,Fiber,30.02,58,Mailed Check,1,10.6,Yes
+88,31,Monthly,Fiber,21.66,51,Bank Transfer,0,213.5,Yes
+89,48,Monthly,Fiber,86.17,34,Credit Card,0,192.5,No
+90,65,Two year,Fiber,80.24,44,Electronic Check,1,48.8,No
+91,32,Two year,Fiber,36.3,15,Bank Transfer,1,231.0,No
+92,25,Monthly,Fiber,43.38,70,Credit Card,1,25.2,No
+93,31,One year,Fiber,22.37,50,Bank Transfer,0,248.8,No
+94,40,One year,None,103.49,32,Credit Card,2,82.3,Yes
+95,74,Monthly,DSL,117.47,67,Bank Transfer,2,208.2,No
+96,57,Two year,Fiber,33.55,3,Bank Transfer,1,277.5,No
+97,38,Monthly,DSL,43.15,51,Mailed Check,2,105.2,No
+98,33,Monthly,Fiber,106.84,67,Mailed Check,3,153.4,No
+99,62,Monthly,Fiber,112.65,48,Credit Card,1,141.6,No
+100,35,Monthly,DSL,61.96,17,Electronic Check,1,51.5,No
+101,64,Monthly,Fiber,25.06,7,Mailed Check,3,179.1,Yes
+102,70,One year,Fiber,23.94,13,Bank Transfer,0,224.2,No
+103,41,Monthly,None,77.39,66,Mailed Check,0,275.5,No
+104,43,One year,DSL,59.29,4,Mailed Check,1,256.0,No
+105,42,Monthly,DSL,22.87,10,Credit Card,3,155.5,Yes
+106,62,Monthly,DSL,78.33,17,Mailed Check,3,217.1,Yes
+107,58,Monthly,DSL,21.13,52,Mailed Check,1,241.2,No
+108,46,Monthly,Fiber,98.74,6,Bank Transfer,0,150.6,No
+109,32,One year,Fiber,50.64,69,Mailed Check,5,39.1,Yes
+110,62,Monthly,Fiber,24.03,9,Bank Transfer,2,134.2,No
+111,18,Monthly,Fiber,78.84,21,Mailed Check,2,253.5,No
+112,42,Monthly,DSL,59.77,24,Mailed Check,1,181.0,No
+113,24,One year,Fiber,117.38,4,Electronic Check,3,218.7,No
+114,26,Two year,None,74.42,24,Mailed Check,2,59.7,Yes
+115,41,One year,None,47.52,59,Bank Transfer,1,289.5,No
+116,18,Monthly,DSL,90.94,3,Bank Transfer,1,124.2,No
+117,61,Monthly,DSL,47.15,68,Credit Card,3,197.8,No
+118,25,Monthly,DSL,110.42,40,Credit Card,2,10.6,No
+119,41,Monthly,Fiber,57.47,48,Electronic Check,1,42.6,No
+120,28,Monthly,DSL,74.99,54,Bank Transfer,0,235.7,No
+121,68,Monthly,Fiber,25.06,35,Bank Transfer,2,290.6,No
+122,34,Monthly,DSL,62.61,56,Bank Transfer,1,99.4,No
+123,25,Monthly,Fiber,103.24,40,Electronic Check,2,16.0,Yes
+124,52,One year,DSL,100.56,68,Bank Transfer,2,111.5,Yes
+125,52,Monthly,None,42.43,46,Credit Card,2,10.2,Yes
+126,50,Monthly,Fiber,42.61,13,Electronic Check,2,61.8,No
+127,22,One year,Fiber,101.73,27,Credit Card,1,227.0,No
+128,59,Monthly,None,113.04,6,Credit Card,3,281.4,Yes
+129,56,One year,Fiber,29.54,17,Electronic Check,4,30.8,No
+130,58,Monthly,DSL,65.01,36,Mailed Check,2,169.6,No
+131,45,Monthly,DSL,53.75,2,Mailed Check,1,79.9,No
+132,24,One year,Fiber,107.07,52,Credit Card,1,46.0,Yes
+133,26,One year,Fiber,28.35,66,Mailed Check,1,69.6,No
+134,25,One year,Fiber,41.11,52,Bank Transfer,2,175.4,No
+135,29,Monthly,DSL,95.25,43,Electronic Check,3,24.2,No
+136,51,Monthly,Fiber,25.13,22,Credit Card,1,133.1,No
+137,50,Monthly,DSL,69.25,55,Bank Transfer,0,44.9,Yes
+138,65,Monthly,Fiber,64.21,67,Mailed Check,2,85.4,No
+139,72,Two year,DSL,53.44,60,Bank Transfer,1,61.3,No
+140,40,Monthly,DSL,59.46,58,Mailed Check,1,265.5,Yes
+141,41,Two year,None,72.99,12,Credit Card,1,213.9,No
+142,54,Monthly,Fiber,36.14,69,Bank Transfer,2,261.2,No
+143,52,Monthly,DSL,77.2,39,Electronic Check,2,118.1,No
+144,61,Monthly,DSL,100.54,13,Credit Card,2,97.5,No
+145,57,Two year,DSL,96.02,41,Bank Transfer,0,117.3,Yes
+146,39,One year,None,35.39,57,Bank Transfer,2,10.5,No
+147,44,One year,Fiber,34.92,53,Mailed Check,0,218.8,Yes
+148,52,One year,Fiber,46.82,12,Credit Card,2,108.2,No
+149,18,One year,DSL,56.11,13,Credit Card,3,97.4,No
+150,52,One year,Fiber,60.85,57,Credit Card,2,181.5,No
+151,54,Monthly,DSL,87.97,40,Credit Card,1,133.7,No
+152,64,Monthly,DSL,25.67,45,Mailed Check,1,294.3,No
+153,31,Monthly,Fiber,23.47,35,Electronic Check,1,110.1,No
+154,20,Two year,DSL,59.19,3,Credit Card,2,186.1,No
+155,18,Two year,Fiber,89.72,5,Mailed Check,3,96.9,No
+156,22,Monthly,DSL,39.34,11,Electronic Check,2,297.2,No
+157,43,One year,DSL,84.15,71,Electronic Check,0,136.3,No
+158,72,Two year,None,45.98,56,Mailed Check,4,192.1,No
+159,31,Monthly,Fiber,108.61,10,Credit Card,1,42.4,No
+160,56,Monthly,Fiber,109.57,34,Electronic Check,2,221.2,Yes
+161,44,Two year,DSL,49.73,67,Credit Card,1,84.4,No
+162,26,Monthly,DSL,43.0,31,Credit Card,1,137.3,No
+163,32,One year,DSL,61.13,71,Bank Transfer,1,265.5,No
+164,32,Monthly,Fiber,44.05,66,Credit Card,3,291.3,No
+165,43,Two year,Fiber,87.24,70,Bank Transfer,3,130.2,Yes
+166,59,Two year,Fiber,102.61,41,Electronic Check,2,251.3,No
+167,30,Two year,DSL,87.31,63,Mailed Check,2,20.7,Yes
+168,68,Monthly,Fiber,102.44,32,Bank Transfer,1,255.0,No
+169,49,Two year,Fiber,59.7,20,Mailed Check,1,190.7,Yes
+170,56,One year,None,35.63,57,Electronic Check,1,149.2,No
+171,66,Monthly,Fiber,93.8,50,Credit Card,0,267.5,No
+172,69,One year,None,56.05,25,Electronic Check,3,254.4,No
+173,49,Monthly,DSL,87.13,12,Mailed Check,1,92.6,No
+174,21,Monthly,DSL,47.06,71,Electronic Check,3,238.5,No
+175,47,Monthly,Fiber,28.12,39,Credit Card,2,34.3,No
+176,54,Monthly,Fiber,119.26,17,Electronic Check,0,247.7,No
+177,40,Monthly,DSL,35.62,45,Credit Card,5,204.3,No
+178,56,One year,DSL,118.84,11,Bank Transfer,0,30.9,No
+179,62,Monthly,DSL,117.73,70,Mailed Check,0,206.5,Yes
+180,32,One year,Fiber,99.38,23,Credit Card,6,176.3,No
+181,60,Monthly,DSL,85.94,70,Credit Card,2,180.4,No
+182,46,Monthly,DSL,77.78,38,Electronic Check,2,90.8,Yes
+183,53,Monthly,DSL,106.61,2,Bank Transfer,0,83.6,No
+184,30,One year,DSL,48.94,37,Credit Card,3,229.9,No
+185,49,Monthly,DSL,66.77,49,Bank Transfer,0,80.8,No
+186,24,One year,DSL,81.94,52,Bank Transfer,1,136.6,Yes
+187,68,Two year,Fiber,61.12,33,Electronic Check,0,210.0,No
+188,39,One year,Fiber,62.75,22,Credit Card,2,28.5,No
+189,45,Monthly,Fiber,53.03,5,Electronic Check,0,180.4,No
+190,19,Monthly,Fiber,76.42,18,Mailed Check,1,178.9,No
+191,59,Two year,Fiber,105.06,38,Mailed Check,2,206.8,No
+192,62,Monthly,Fiber,40.15,37,Credit Card,1,114.1,No
+193,74,Two year,Fiber,113.44,64,Bank Transfer,2,137.4,No
+194,70,Monthly,Fiber,88.91,10,Credit Card,1,102.3,Yes
+195,23,Two year,DSL,102.33,42,Credit Card,3,243.4,No
+196,45,One year,None,75.62,48,Mailed Check,2,43.5,No
+197,45,Two year,Fiber,97.95,44,Mailed Check,1,289.1,No
+198,61,Monthly,None,21.62,16,Bank Transfer,2,192.3,No
+199,61,One year,DSL,101.84,54,Bank Transfer,1,266.6,No
+200,37,Monthly,Fiber,24.01,35,Credit Card,1,130.7,No
+201,47,Monthly,Fiber,108.99,28,Electronic Check,1,103.0,No
+202,28,One year,DSL,119.2,2,Credit Card,1,270.7,No
+203,72,Two year,DSL,49.41,13,Bank Transfer,3,34.2,Yes
+204,45,Two year,DSL,41.03,41,Electronic Check,1,39.5,No
+205,42,One year,Fiber,96.54,59,Mailed Check,1,93.3,No
+206,56,Monthly,Fiber,45.3,69,Bank Transfer,1,288.1,No
+207,50,Monthly,Fiber,106.56,53,Bank Transfer,1,191.8,No
+208,18,One year,Fiber,30.28,45,Electronic Check,2,168.5,No
+209,74,Monthly,Fiber,32.6,20,Bank Transfer,0,213.1,Yes
+210,44,Monthly,Fiber,117.92,24,Bank Transfer,0,128.2,No
+211,74,Monthly,DSL,87.38,61,Bank Transfer,2,228.6,No
+212,69,Monthly,None,104.69,58,Bank Transfer,2,121.0,No
+213,30,Monthly,Fiber,52.43,27,Bank Transfer,3,248.8,No
+214,58,Monthly,None,87.65,26,Bank Transfer,2,83.9,No
+215,20,Monthly,Fiber,79.42,7,Bank Transfer,3,86.9,Yes
+216,56,Monthly,Fiber,80.32,42,Bank Transfer,2,159.1,No
+217,23,Two year,Fiber,88.25,47,Mailed Check,2,132.1,No
+218,25,Monthly,DSL,77.54,53,Bank Transfer,0,196.2,No
+219,44,Monthly,None,62.91,59,Mailed Check,4,112.5,No
+220,26,One year,DSL,47.59,38,Mailed Check,0,73.0,No
+221,54,Monthly,Fiber,96.86,69,Credit Card,1,143.6,No
+222,50,Two year,DSL,42.63,53,Credit Card,1,170.5,No
+223,68,One year,Fiber,89.24,15,Mailed Check,1,47.1,No
+224,59,Monthly,DSL,43.33,26,Mailed Check,1,169.2,Yes
+225,61,Monthly,DSL,82.53,48,Bank Transfer,0,99.2,No
+226,41,Two year,Fiber,94.71,19,Credit Card,1,120.8,No
+227,32,Two year,DSL,41.87,9,Electronic Check,0,87.4,No
+228,71,Monthly,DSL,25.99,64,Credit Card,1,279.8,No
+229,49,One year,Fiber,33.1,54,Mailed Check,1,206.6,No
+230,49,Monthly,DSL,80.6,51,Mailed Check,1,82.4,No
+231,41,Two year,Fiber,104.94,39,Bank Transfer,2,195.3,Yes
+232,58,Monthly,DSL,24.5,4,Bank Transfer,4,255.3,Yes
+233,69,Two year,DSL,93.42,3,Credit Card,2,123.5,Yes
+234,66,One year,DSL,54.13,64,Bank Transfer,2,249.8,No
+235,66,One year,DSL,67.85,29,Electronic Check,1,50.6,Yes
+236,69,Monthly,DSL,112.89,11,Electronic Check,1,247.7,No
+237,29,Monthly,Fiber,53.2,58,Bank Transfer,0,164.4,No
+238,56,Monthly,DSL,66.53,27,Electronic Check,2,70.8,No
+239,19,Monthly,Fiber,21.37,21,Electronic Check,1,125.1,No
+240,20,Monthly,Fiber,28.16,39,Credit Card,1,296.5,No
+241,66,One year,Fiber,45.86,46,Electronic Check,5,236.1,No
+242,54,Monthly,Fiber,22.79,66,Mailed Check,0,174.7,No
+243,66,Monthly,DSL,83.14,36,Mailed Check,2,39.0,Yes
+244,73,Two year,Fiber,62.64,65,Credit Card,1,128.3,No
+245,34,Two year,DSL,74.81,63,Bank Transfer,1,82.6,No
+246,66,Two year,Fiber,37.46,35,Credit Card,2,25.9,No
+247,19,Two year,Fiber,49.59,31,Bank Transfer,5,165.0,Yes
+248,19,Monthly,DSL,86.38,28,Bank Transfer,1,267.3,No
+249,45,Monthly,Fiber,116.53,1,Bank Transfer,1,204.3,No
+250,71,One year,Fiber,25.04,25,Bank Transfer,0,78.7,Yes
+251,40,One year,DSL,109.04,43,Bank Transfer,2,174.2,No
+252,54,Monthly,Fiber,77.69,67,Credit Card,2,283.3,No
+253,49,One year,DSL,76.39,63,Bank Transfer,1,218.3,No
+254,50,Monthly,Fiber,70.03,51,Electronic Check,3,208.4,No
+255,18,Monthly,Fiber,26.94,2,Electronic Check,1,290.6,Yes
+256,36,Monthly,DSL,28.99,64,Bank Transfer,2,240.7,No
+257,19,Monthly,Fiber,80.09,69,Electronic Check,2,45.3,Yes
+258,70,Monthly,Fiber,54.1,9,Mailed Check,1,107.6,Yes
+259,61,Monthly,Fiber,111.73,2,Credit Card,0,289.7,No
+260,43,Two year,Fiber,60.66,34,Credit Card,1,149.5,No
+261,49,Monthly,DSL,34.33,60,Bank Transfer,3,37.9,Yes
+262,23,Monthly,Fiber,91.47,61,Bank Transfer,2,140.3,No
+263,49,Two year,DSL,49.34,31,Mailed Check,3,210.6,No
+264,72,Two year,DSL,72.55,10,Bank Transfer,0,299.3,No
+265,21,Two year,Fiber,89.78,36,Electronic Check,1,100.6,No
+266,72,One year,None,110.03,49,Mailed Check,3,156.7,Yes
+267,28,One year,Fiber,99.22,70,Electronic Check,1,264.5,No
+268,73,Monthly,None,87.64,49,Credit Card,2,109.8,No
+269,34,Monthly,Fiber,87.96,3,Electronic Check,0,37.2,Yes
+270,55,Monthly,DSL,114.59,5,Credit Card,0,284.9,Yes
+271,41,Monthly,Fiber,49.58,61,Electronic Check,2,149.1,No
+272,22,Monthly,Fiber,20.11,26,Credit Card,1,153.3,Yes
+273,69,One year,DSL,47.2,5,Bank Transfer,2,188.3,No
+274,51,Monthly,DSL,41.79,15,Electronic Check,1,6.0,No
+275,23,Monthly,Fiber,86.18,16,Credit Card,0,279.7,Yes
+276,39,Monthly,Fiber,83.37,1,Electronic Check,0,111.6,No
+277,28,One year,DSL,79.35,16,Mailed Check,1,122.1,No
+278,65,Monthly,DSL,21.62,37,Bank Transfer,1,56.4,No
+279,33,Two year,None,92.88,3,Credit Card,3,116.6,No
+280,50,Monthly,DSL,52.35,52,Mailed Check,1,242.2,Yes
+281,26,Monthly,None,86.51,47,Electronic Check,1,241.0,No
+282,23,Monthly,DSL,75.66,13,Mailed Check,2,281.1,No
+283,33,One year,Fiber,54.27,55,Electronic Check,7,124.0,No
+284,46,Monthly,Fiber,33.46,21,Bank Transfer,1,214.1,Yes
+285,20,One year,DSL,29.44,66,Mailed Check,5,154.6,No
+286,37,Monthly,DSL,103.15,54,Bank Transfer,1,242.2,No
+287,53,Monthly,Fiber,111.84,27,Credit Card,0,215.2,No
+288,36,Two year,Fiber,84.98,38,Electronic Check,3,113.5,No
+289,43,One year,None,30.34,58,Electronic Check,0,104.3,No
+290,20,One year,DSL,60.2,62,Bank Transfer,1,79.5,No
+291,36,Two year,Fiber,92.89,46,Bank Transfer,1,175.1,Yes
+292,37,Two year,Fiber,97.98,11,Credit Card,1,289.3,No
+293,49,One year,Fiber,31.82,8,Mailed Check,1,64.0,No
+294,24,One year,Fiber,20.0,71,Electronic Check,0,33.1,No
+295,69,One year,Fiber,91.21,64,Electronic Check,0,40.2,No
+296,58,One year,Fiber,55.66,21,Credit Card,1,236.0,No
+297,50,One year,DSL,45.45,63,Credit Card,3,108.3,No
+298,57,One year,Fiber,21.29,64,Bank Transfer,1,71.2,No
+299,56,Monthly,DSL,74.03,20,Bank Transfer,3,109.1,No
+300,35,Two year,DSL,105.12,8,Mailed Check,0,195.4,No
+301,57,Two year,Fiber,115.76,58,Credit Card,2,166.3,No
+302,18,Monthly,DSL,76.57,46,Mailed Check,0,224.4,No
+303,28,One year,Fiber,71.45,31,Credit Card,0,105.0,No
+304,45,Monthly,DSL,28.51,9,Electronic Check,1,138.3,No
+305,74,Monthly,Fiber,74.89,15,Credit Card,2,35.1,Yes
+306,42,One year,DSL,58.0,26,Credit Card,0,26.6,No
+307,67,Monthly,DSL,80.71,10,Electronic Check,1,141.4,No
+308,40,One year,Fiber,58.87,29,Credit Card,3,94.0,Yes
+309,48,One year,Fiber,44.03,36,Mailed Check,2,185.8,No
+310,47,Monthly,DSL,29.5,37,Bank Transfer,2,17.7,Yes
+311,59,Monthly,DSL,51.49,71,Bank Transfer,0,40.9,No
+312,52,Monthly,Fiber,29.66,23,Mailed Check,0,260.2,No
+313,24,One year,DSL,37.69,41,Electronic Check,1,172.1,No
+314,33,Two year,Fiber,118.73,28,Credit Card,1,215.1,Yes
+315,43,One year,DSL,64.41,48,Mailed Check,3,253.4,No
+316,65,Monthly,Fiber,73.19,38,Bank Transfer,4,141.8,No
+317,74,One year,DSL,107.36,31,Bank Transfer,1,229.5,No
+318,69,Monthly,Fiber,119.56,14,Mailed Check,5,159.8,No
+319,66,One year,Fiber,78.27,29,Bank Transfer,0,70.7,No
+320,19,Monthly,Fiber,101.25,51,Mailed Check,2,104.6,No
+321,18,One year,Fiber,52.69,49,Bank Transfer,0,149.7,No
+322,65,Monthly,DSL,50.57,43,Mailed Check,5,98.5,No
+323,29,Two year,Fiber,60.27,5,Credit Card,5,104.0,No
+324,22,Monthly,DSL,87.25,42,Credit Card,0,104.5,No
+325,54,One year,Fiber,88.22,7,Credit Card,0,41.2,No
+326,49,Two year,Fiber,51.52,42,Credit Card,0,30.0,No
+327,72,Monthly,Fiber,33.32,36,Bank Transfer,0,18.7,Yes
+328,26,Two year,Fiber,83.24,27,Electronic Check,0,37.7,No
+329,58,One year,Fiber,32.83,58,Mailed Check,1,106.4,No
+330,52,Monthly,Fiber,77.85,46,Electronic Check,1,180.2,No
+331,36,Monthly,Fiber,89.34,66,Bank Transfer,4,60.5,No
+332,65,One year,Fiber,90.06,25,Bank Transfer,0,267.0,No
+333,33,Monthly,DSL,95.35,27,Electronic Check,1,243.5,No
+334,20,Monthly,DSL,107.29,1,Electronic Check,2,158.6,No
+335,37,Monthly,Fiber,70.0,42,Bank Transfer,0,218.6,Yes
+336,41,One year,Fiber,93.02,52,Bank Transfer,1,113.1,Yes
+337,71,Monthly,None,81.92,25,Mailed Check,1,15.8,No
+338,73,Two year,DSL,38.66,54,Credit Card,0,271.8,No
+339,50,Two year,DSL,22.57,67,Credit Card,0,42.7,Yes
+340,41,Two year,Fiber,48.45,6,Mailed Check,0,284.6,No
+341,69,One year,DSL,64.3,58,Electronic Check,1,173.7,No
+342,28,Monthly,DSL,81.71,70,Bank Transfer,2,95.1,No
+343,66,One year,DSL,105.0,53,Electronic Check,3,151.2,No
+344,25,Monthly,None,39.62,66,Credit Card,2,153.0,No
+345,53,Monthly,Fiber,32.55,58,Credit Card,2,11.9,Yes
+346,55,Monthly,Fiber,116.35,2,Electronic Check,3,109.9,Yes
+347,57,Monthly,DSL,30.8,22,Credit Card,5,223.3,No
+348,37,One year,DSL,67.85,37,Bank Transfer,0,155.5,Yes
+349,52,One year,Fiber,78.56,20,Mailed Check,2,77.0,No
+350,65,Monthly,Fiber,74.14,24,Electronic Check,2,103.9,No
+351,42,Monthly,Fiber,28.6,65,Bank Transfer,1,259.6,No
+352,52,Two year,Fiber,25.7,65,Bank Transfer,0,160.0,No
+353,42,Monthly,DSL,30.55,1,Credit Card,1,160.9,No
+354,46,Monthly,DSL,78.56,3,Bank Transfer,1,288.6,No
+355,35,Monthly,Fiber,74.43,46,Electronic Check,3,99.7,Yes
+356,63,One year,Fiber,43.37,55,Bank Transfer,1,146.5,Yes
+357,35,One year,Fiber,83.78,64,Mailed Check,4,244.5,Yes
+358,19,Monthly,Fiber,102.01,45,Bank Transfer,0,228.9,No
+359,71,Monthly,DSL,24.16,26,Bank Transfer,1,83.4,No
+360,52,One year,None,69.81,65,Mailed Check,1,49.6,No
+361,33,One year,DSL,88.93,24,Bank Transfer,1,211.7,Yes
+362,58,Monthly,Fiber,45.23,35,Bank Transfer,3,81.0,No
+363,53,Two year,DSL,50.78,24,Credit Card,2,277.2,No
+364,50,Monthly,DSL,81.36,28,Electronic Check,0,43.1,No
+365,21,Monthly,DSL,109.79,16,Credit Card,1,98.9,Yes
+366,50,Two year,Fiber,100.99,59,Electronic Check,5,21.2,No
+367,31,Monthly,Fiber,78.31,54,Mailed Check,0,212.5,No
+368,38,One year,Fiber,93.02,16,Mailed Check,2,267.9,No
+369,65,Monthly,Fiber,56.48,15,Mailed Check,3,192.6,Yes
+370,37,Monthly,Fiber,84.1,11,Electronic Check,1,281.6,No
+371,73,Two year,Fiber,66.62,65,Electronic Check,0,42.9,Yes
+372,25,Monthly,Fiber,38.99,68,Electronic Check,1,30.9,Yes
+373,24,Two year,DSL,90.17,43,Mailed Check,1,252.3,No
+374,20,Monthly,Fiber,75.65,69,Electronic Check,1,257.4,No
+375,34,Monthly,Fiber,55.86,13,Bank Transfer,1,250.2,No
+376,50,Monthly,None,111.13,10,Credit Card,2,240.7,No
+377,65,One year,None,22.09,41,Mailed Check,0,111.9,No
+378,29,Monthly,DSL,51.58,50,Credit Card,1,69.2,No
+379,68,Two year,None,25.69,71,Bank Transfer,1,279.0,No
+380,39,Monthly,DSL,96.65,59,Electronic Check,1,95.6,No
+381,72,Two year,None,90.21,39,Credit Card,2,122.5,No
+382,39,Monthly,Fiber,53.14,3,Bank Transfer,2,211.4,No
+383,63,Two year,Fiber,87.57,7,Bank Transfer,4,91.5,Yes
+384,47,One year,Fiber,59.59,49,Credit Card,1,246.6,No
+385,55,One year,Fiber,95.63,26,Mailed Check,3,25.7,No
+386,55,One year,Fiber,65.42,33,Credit Card,2,238.4,Yes
+387,62,One year,DSL,61.23,48,Mailed Check,1,182.5,No
+388,68,One year,DSL,113.47,2,Electronic Check,1,174.0,No
+389,71,Monthly,DSL,45.09,71,Mailed Check,0,140.2,No
+390,25,Monthly,Fiber,32.04,32,Electronic Check,0,86.7,Yes
+391,44,Two year,DSL,78.45,4,Credit Card,0,141.9,No
+392,44,One year,DSL,116.93,20,Electronic Check,4,137.8,Yes
+393,51,One year,Fiber,57.78,36,Bank Transfer,0,177.2,Yes
+394,38,Monthly,DSL,26.2,32,Electronic Check,1,88.1,No
+395,47,Monthly,Fiber,53.93,28,Mailed Check,0,27.9,No
+396,50,Monthly,Fiber,70.59,1,Mailed Check,1,47.8,No
+397,45,One year,None,36.19,60,Mailed Check,0,211.3,No
+398,64,Monthly,Fiber,85.81,56,Electronic Check,0,11.6,No
+399,50,Monthly,Fiber,119.77,35,Mailed Check,1,257.7,No
+400,22,Monthly,DSL,65.17,30,Mailed Check,1,209.8,No
+401,65,Monthly,DSL,55.47,54,Bank Transfer,4,231.6,Yes
+402,36,Monthly,Fiber,60.07,36,Electronic Check,1,251.6,No
+403,21,Monthly,Fiber,31.51,55,Bank Transfer,0,41.2,No
+404,52,One year,Fiber,108.33,58,Mailed Check,0,247.6,No
+405,66,Monthly,DSL,61.48,65,Mailed Check,4,153.9,No
+406,34,Monthly,Fiber,58.73,69,Mailed Check,2,266.2,Yes
+407,61,Monthly,Fiber,85.97,51,Electronic Check,4,266.5,No
+408,45,Monthly,None,64.2,22,Credit Card,1,12.1,No
+409,47,Monthly,DSL,84.82,53,Mailed Check,0,117.9,No
+410,46,Monthly,Fiber,26.14,36,Mailed Check,1,160.3,No
+411,63,One year,DSL,101.37,68,Mailed Check,1,205.1,No
+412,70,Monthly,DSL,114.05,36,Mailed Check,0,89.4,No
+413,23,One year,Fiber,84.88,52,Electronic Check,3,79.4,Yes
+414,52,Two year,Fiber,115.46,53,Credit Card,2,117.5,Yes
+415,58,One year,DSL,35.14,50,Credit Card,3,152.8,No
+416,54,Monthly,Fiber,67.74,41,Credit Card,1,285.6,No
+417,41,Monthly,DSL,80.18,18,Mailed Check,1,229.8,No
+418,46,Monthly,Fiber,78.17,22,Mailed Check,0,131.6,No
+419,66,Monthly,Fiber,60.15,66,Credit Card,2,21.0,No
+420,63,Two year,Fiber,53.81,21,Credit Card,2,54.7,No
+421,70,Monthly,Fiber,32.68,44,Mailed Check,2,139.5,No
+422,48,Monthly,Fiber,59.17,47,Mailed Check,3,245.1,No
+423,52,One year,Fiber,36.27,39,Bank Transfer,3,117.3,No
+424,50,One year,DSL,93.44,29,Bank Transfer,0,163.9,No
+425,69,Monthly,None,40.88,54,Bank Transfer,2,268.1,No
+426,38,Monthly,DSL,25.86,17,Credit Card,1,274.6,No
+427,49,Monthly,DSL,75.24,60,Electronic Check,3,68.7,No
+428,40,Monthly,Fiber,79.52,31,Mailed Check,2,17.9,Yes
+429,50,Monthly,None,107.19,49,Bank Transfer,1,95.1,No
+430,20,Monthly,Fiber,77.7,2,Electronic Check,0,210.3,Yes
+431,35,Monthly,None,54.55,48,Mailed Check,2,285.6,No
+432,42,Monthly,None,100.3,14,Electronic Check,0,27.7,No
+433,59,Monthly,DSL,74.03,59,Credit Card,2,13.4,No
+434,48,Monthly,None,27.93,58,Credit Card,1,265.8,No
+435,71,Monthly,DSL,76.59,58,Credit Card,1,225.7,Yes
+436,20,One year,Fiber,110.8,51,Bank Transfer,0,297.7,No
+437,57,One year,Fiber,59.63,2,Mailed Check,1,122.1,No
+438,63,Monthly,DSL,49.63,41,Credit Card,0,127.7,No
+439,41,Monthly,Fiber,34.35,16,Bank Transfer,1,55.8,No
+440,67,Monthly,DSL,35.14,4,Bank Transfer,3,39.2,Yes
+441,49,One year,None,63.28,12,Bank Transfer,0,175.7,No
+442,64,One year,Fiber,79.57,29,Bank Transfer,3,112.5,Yes
+443,39,Monthly,DSL,28.06,7,Credit Card,1,28.7,No
+444,40,Two year,None,113.96,14,Bank Transfer,1,266.7,No
+445,19,Monthly,None,95.51,12,Credit Card,0,63.5,No
+446,44,Monthly,None,78.66,5,Credit Card,4,225.8,Yes
+447,59,One year,DSL,102.84,32,Bank Transfer,1,88.3,Yes
+448,19,Two year,None,28.02,43,Credit Card,1,244.8,No
+449,43,One year,DSL,67.68,69,Mailed Check,1,39.9,No
+450,34,One year,Fiber,83.01,45,Mailed Check,2,228.0,No
+451,57,Monthly,Fiber,102.87,9,Electronic Check,3,33.9,Yes
+452,50,One year,DSL,98.35,49,Mailed Check,1,136.8,Yes
+453,26,Monthly,Fiber,47.71,33,Credit Card,5,221.5,No
+454,60,Two year,DSL,114.09,18,Credit Card,1,56.1,No
+455,71,Monthly,DSL,32.43,9,Mailed Check,1,89.3,No
+456,65,One year,Fiber,107.51,62,Bank Transfer,1,260.1,No
+457,56,Monthly,DSL,117.09,57,Bank Transfer,5,266.1,Yes
+458,46,One year,DSL,37.72,29,Credit Card,2,18.3,No
+459,59,Monthly,Fiber,92.21,25,Bank Transfer,2,54.6,No
+460,72,One year,Fiber,24.03,15,Electronic Check,1,39.7,Yes
+461,43,Monthly,Fiber,60.54,6,Electronic Check,2,58.0,No
+462,52,Monthly,Fiber,71.63,42,Mailed Check,4,291.2,No
+463,67,Monthly,None,78.06,29,Mailed Check,1,167.7,No
+464,42,Monthly,Fiber,113.59,4,Bank Transfer,3,143.1,Yes
+465,41,Two year,DSL,87.23,57,Credit Card,1,295.4,No
+466,30,Monthly,Fiber,68.13,49,Mailed Check,3,169.3,No
+467,24,Two year,Fiber,100.97,44,Electronic Check,0,200.0,No
+468,74,Monthly,DSL,115.05,14,Mailed Check,1,103.2,No
+469,53,Monthly,DSL,22.21,3,Mailed Check,0,117.7,No
+470,62,One year,Fiber,118.25,62,Electronic Check,0,180.4,No
+471,37,One year,Fiber,28.61,64,Credit Card,2,25.6,No
+472,18,Monthly,Fiber,101.44,45,Mailed Check,0,80.5,Yes
+473,25,Monthly,Fiber,48.03,58,Mailed Check,2,63.1,No
+474,63,One year,DSL,33.22,20,Mailed Check,5,9.7,No
+475,33,Monthly,Fiber,63.99,58,Bank Transfer,2,163.4,Yes
+476,31,Two year,Fiber,84.4,57,Mailed Check,1,170.5,No
+477,29,Two year,Fiber,58.1,68,Electronic Check,1,118.3,No
+478,68,One year,None,25.46,52,Credit Card,1,84.3,No
+479,40,Monthly,None,79.95,37,Credit Card,1,197.4,No
+480,32,One year,Fiber,110.24,8,Electronic Check,1,44.7,No
+481,45,Monthly,DSL,58.32,44,Bank Transfer,2,158.0,Yes
+482,51,Monthly,Fiber,41.63,5,Electronic Check,1,231.6,No
+483,19,Monthly,Fiber,64.26,69,Credit Card,5,53.5,No
+484,49,Monthly,DSL,24.84,31,Electronic Check,0,227.2,No
+485,40,Two year,None,102.05,45,Bank Transfer,3,229.4,No
+486,39,One year,None,102.63,9,Credit Card,2,22.7,Yes
+487,68,One year,DSL,78.8,32,Bank Transfer,0,10.5,No
+488,42,Monthly,Fiber,55.31,33,Electronic Check,2,292.3,No
+489,39,Monthly,DSL,99.98,67,Mailed Check,5,62.0,No
+490,39,Monthly,Fiber,75.47,30,Electronic Check,1,247.5,No
+491,66,Two year,DSL,102.59,29,Bank Transfer,2,170.7,No
+492,69,Monthly,Fiber,83.15,3,Electronic Check,3,83.0,Yes
+493,59,Two year,DSL,98.44,57,Mailed Check,1,43.3,Yes
+494,23,Monthly,Fiber,79.86,30,Bank Transfer,0,151.5,No
+495,32,Monthly,Fiber,61.41,9,Electronic Check,1,125.2,No
+496,71,One year,None,115.79,26,Bank Transfer,0,211.2,No
+497,60,Monthly,Fiber,74.11,2,Bank Transfer,1,271.7,No
+498,54,Two year,DSL,80.51,62,Credit Card,1,242.5,No
+499,50,Two year,Fiber,42.05,3,Credit Card,3,86.0,No
+500,25,Monthly,Fiber,82.57,46,Bank Transfer,2,264.3,No
+501,70,Monthly,Fiber,77.16,68,Electronic Check,3,250.9,No
+502,61,Monthly,Fiber,38.48,25,Electronic Check,2,279.1,No
+503,61,Two year,DSL,25.96,51,Electronic Check,1,140.3,Yes
+504,22,Monthly,Fiber,80.44,13,Mailed Check,1,231.7,No
+505,56,One year,None,96.37,44,Bank Transfer,1,179.5,No
+506,21,One year,DSL,72.34,35,Bank Transfer,0,96.6,No
+507,23,One year,Fiber,42.68,55,Mailed Check,0,298.4,No
+508,62,Monthly,DSL,86.65,9,Bank Transfer,1,16.3,No
+509,49,One year,DSL,28.01,2,Bank Transfer,3,52.9,No
+510,69,Two year,DSL,64.18,61,Mailed Check,2,268.3,No
+511,47,Monthly,Fiber,36.34,41,Credit Card,0,22.9,No
+512,64,Monthly,Fiber,38.45,44,Bank Transfer,1,266.6,No
+513,52,Two year,DSL,40.23,64,Mailed Check,2,216.0,No
+514,72,Monthly,None,58.67,31,Electronic Check,0,15.8,No
+515,57,Two year,DSL,25.12,47,Credit Card,1,131.6,Yes
+516,69,Monthly,Fiber,59.78,2,Electronic Check,0,227.6,No
+517,33,Monthly,DSL,71.17,69,Bank Transfer,0,177.0,Yes
+518,30,Two year,Fiber,68.33,58,Credit Card,0,281.1,Yes
+519,67,Monthly,Fiber,58.28,44,Mailed Check,0,261.0,Yes
+520,59,Monthly,Fiber,103.91,56,Bank Transfer,2,103.1,No
+521,47,Monthly,DSL,34.53,43,Mailed Check,2,30.0,Yes
+522,36,Monthly,Fiber,70.57,34,Credit Card,0,283.6,No
+523,34,Monthly,Fiber,26.2,30,Electronic Check,2,157.6,No
+524,73,Monthly,DSL,27.12,71,Bank Transfer,2,26.9,No
+525,36,Two year,Fiber,77.39,70,Bank Transfer,0,245.9,No
+526,45,Monthly,Fiber,76.6,55,Mailed Check,2,261.2,No
+527,72,One year,Fiber,107.8,67,Credit Card,0,193.6,No
+528,43,Monthly,None,75.79,13,Mailed Check,1,137.0,No
+529,54,One year,DSL,115.98,3,Credit Card,2,200.3,No
+530,43,Monthly,Fiber,24.87,26,Bank Transfer,0,213.5,No
+531,70,Two year,DSL,29.8,57,Credit Card,1,268.4,No
+532,40,Monthly,DSL,24.41,24,Bank Transfer,0,287.0,Yes
+533,26,Monthly,Fiber,38.53,53,Credit Card,2,156.7,No
+534,29,Monthly,DSL,74.13,70,Electronic Check,1,240.6,No
+535,70,Monthly,DSL,84.56,43,Credit Card,2,289.5,Yes
+536,18,Monthly,DSL,24.56,60,Electronic Check,0,49.6,No
+537,18,Monthly,Fiber,114.6,58,Credit Card,1,10.4,No
+538,64,One year,DSL,104.22,49,Credit Card,3,261.3,Yes
+539,51,Monthly,DSL,49.66,42,Mailed Check,1,62.6,Yes
+540,49,Monthly,Fiber,27.72,66,Mailed Check,2,17.5,No
+541,71,One year,Fiber,36.99,11,Bank Transfer,2,52.2,No
+542,65,One year,Fiber,32.69,18,Mailed Check,1,118.3,Yes
+543,42,Monthly,Fiber,32.33,52,Credit Card,1,69.7,No
+544,57,Monthly,DSL,71.86,46,Mailed Check,0,95.0,No
+545,62,Monthly,Fiber,44.58,44,Credit Card,0,292.7,No
+546,70,One year,Fiber,55.81,22,Electronic Check,0,212.8,No
+547,18,One year,DSL,118.95,53,Credit Card,3,215.1,No
+548,33,Monthly,Fiber,88.43,59,Bank Transfer,2,32.9,Yes
+549,56,One year,None,114.9,30,Electronic Check,3,221.0,No
+550,22,One year,Fiber,34.26,8,Bank Transfer,1,223.1,No
+551,39,Monthly,Fiber,58.21,57,Bank Transfer,1,199.6,No
+552,46,Two year,Fiber,75.47,20,Bank Transfer,5,72.4,No
+553,72,Monthly,Fiber,27.68,25,Mailed Check,2,129.8,No
+554,20,Monthly,Fiber,20.42,19,Bank Transfer,1,254.7,Yes
+555,29,Monthly,DSL,87.04,5,Electronic Check,0,202.7,Yes
+556,43,Monthly,None,84.18,27,Credit Card,2,221.2,No
+557,33,Monthly,Fiber,61.08,40,Bank Transfer,2,178.3,No
+558,68,Two year,DSL,68.96,26,Electronic Check,5,137.6,No
+559,54,Monthly,DSL,61.54,27,Bank Transfer,0,228.9,Yes
+560,39,Monthly,DSL,22.4,62,Credit Card,0,25.0,No
+561,74,Monthly,Fiber,53.54,50,Electronic Check,1,203.6,Yes
+562,46,Two year,Fiber,37.71,42,Electronic Check,0,299.2,No
+563,31,Monthly,Fiber,29.84,29,Credit Card,1,235.2,No
+564,45,Monthly,DSL,115.67,39,Electronic Check,2,90.7,No
+565,22,Monthly,DSL,79.94,60,Credit Card,1,87.0,No
+566,64,Monthly,Fiber,92.87,41,Electronic Check,2,201.8,Yes
+567,66,Two year,Fiber,51.54,33,Electronic Check,0,269.3,No
+568,47,Two year,None,59.31,16,Credit Card,1,175.5,No
+569,63,Monthly,DSL,43.69,23,Credit Card,1,160.6,No
+570,69,Two year,None,29.7,7,Electronic Check,2,52.3,No
+571,22,One year,DSL,37.9,26,Electronic Check,0,216.1,No
+572,29,Two year,Fiber,99.75,12,Credit Card,1,212.2,No
+573,33,Monthly,DSL,87.75,5,Mailed Check,0,290.3,No
+574,43,Monthly,DSL,74.69,69,Credit Card,1,93.6,No
+575,43,Monthly,Fiber,67.51,49,Electronic Check,1,228.2,No
+576,65,One year,DSL,112.24,26,Electronic Check,3,133.0,No
+577,38,Monthly,DSL,27.27,5,Electronic Check,4,169.7,Yes
+578,56,Monthly,Fiber,48.06,22,Credit Card,0,245.9,No
+579,53,Monthly,DSL,54.99,13,Electronic Check,2,70.5,No
+580,50,One year,DSL,98.24,28,Mailed Check,0,106.1,No
+581,47,Monthly,None,119.25,33,Bank Transfer,2,233.1,No
+582,54,One year,Fiber,44.07,23,Mailed Check,0,173.3,No
+583,40,Two year,Fiber,107.43,18,Credit Card,0,32.3,No
+584,27,Monthly,DSL,103.06,30,Electronic Check,1,131.9,No
+585,71,One year,Fiber,42.47,26,Credit Card,2,178.1,No
+586,22,Monthly,DSL,59.93,16,Bank Transfer,1,273.3,Yes
+587,53,Two year,DSL,60.97,39,Credit Card,2,60.6,No
+588,51,Monthly,Fiber,117.82,33,Electronic Check,0,242.8,No
+589,69,One year,DSL,38.09,26,Bank Transfer,3,43.5,No
+590,48,One year,DSL,99.92,48,Bank Transfer,1,76.5,No
+591,27,Two year,Fiber,53.42,65,Electronic Check,3,76.8,No
+592,36,One year,None,93.09,38,Electronic Check,1,263.9,Yes
+593,49,Monthly,DSL,62.0,2,Electronic Check,2,63.7,No
+594,18,One year,DSL,77.84,6,Credit Card,5,237.2,No
+595,73,Two year,DSL,103.26,46,Mailed Check,0,141.2,No
+596,22,Monthly,Fiber,100.42,50,Credit Card,2,299.7,No
+597,62,Monthly,None,106.64,38,Credit Card,2,252.5,No
+598,21,Two year,DSL,25.96,18,Mailed Check,0,223.2,Yes
+599,33,One year,DSL,89.21,27,Electronic Check,3,261.9,Yes
+600,41,One year,DSL,34.0,41,Electronic Check,1,192.0,No
+601,33,Monthly,Fiber,61.58,17,Mailed Check,2,253.9,Yes
+602,72,One year,DSL,74.86,62,Mailed Check,2,82.0,No
+603,19,Monthly,Fiber,60.27,29,Credit Card,2,33.8,No
+604,66,One year,Fiber,71.96,58,Bank Transfer,3,186.7,No
+605,45,Monthly,Fiber,119.65,70,Mailed Check,0,133.2,No
+606,49,One year,None,33.52,22,Credit Card,3,130.8,Yes
+607,44,Two year,DSL,87.55,6,Bank Transfer,0,160.4,Yes
+608,37,Monthly,DSL,59.6,26,Electronic Check,0,111.6,Yes
+609,41,Two year,DSL,33.3,39,Electronic Check,1,189.7,No
+610,29,Monthly,DSL,35.87,12,Credit Card,3,14.0,No
+611,67,Two year,None,114.93,14,Credit Card,0,291.1,No
+612,52,One year,Fiber,107.96,22,Mailed Check,0,277.8,No
+613,50,Monthly,Fiber,110.7,51,Electronic Check,3,280.9,No
+614,50,One year,Fiber,119.15,23,Credit Card,1,112.7,No
+615,68,Two year,DSL,40.83,48,Electronic Check,3,161.9,Yes
+616,60,Monthly,DSL,55.54,71,Electronic Check,2,286.5,Yes
+617,54,Monthly,Fiber,86.92,50,Mailed Check,1,271.2,No
+618,29,One year,Fiber,68.38,13,Bank Transfer,3,238.1,No
+619,20,One year,DSL,61.84,10,Mailed Check,0,125.2,No
+620,18,One year,Fiber,55.78,55,Credit Card,0,171.5,No
+621,50,One year,DSL,79.38,9,Mailed Check,1,238.9,No
+622,57,Monthly,None,77.56,52,Mailed Check,1,85.5,No
+623,27,One year,Fiber,36.15,2,Electronic Check,1,189.8,No
+624,60,Monthly,Fiber,67.17,25,Mailed Check,4,249.2,No
+625,61,Monthly,DSL,75.35,13,Credit Card,1,213.7,No
+626,46,Monthly,DSL,77.03,51,Bank Transfer,2,146.4,Yes
+627,30,Monthly,DSL,41.01,58,Mailed Check,2,177.5,No
+628,29,Monthly,None,94.23,34,Mailed Check,2,296.7,Yes
+629,48,Monthly,Fiber,22.52,35,Bank Transfer,3,182.6,No
+630,63,One year,DSL,55.48,3,Credit Card,2,236.8,No
+631,19,Monthly,DSL,98.02,59,Credit Card,5,219.3,No
+632,68,Monthly,DSL,76.39,70,Mailed Check,2,211.9,No
+633,67,Monthly,Fiber,46.12,48,Electronic Check,2,216.3,No
+634,52,Monthly,DSL,89.5,64,Mailed Check,1,139.1,No
+635,40,Monthly,DSL,76.74,19,Bank Transfer,3,144.9,No
+636,34,Monthly,Fiber,99.62,67,Bank Transfer,0,143.0,No
+637,43,One year,Fiber,93.5,5,Bank Transfer,5,14.8,Yes
+638,25,One year,DSL,81.01,67,Mailed Check,4,76.1,No
+639,46,One year,Fiber,68.82,11,Mailed Check,1,50.6,Yes
+640,43,Monthly,Fiber,33.32,68,Credit Card,0,266.5,No
+641,27,Monthly,Fiber,46.13,69,Electronic Check,2,86.1,Yes
+642,43,Two year,DSL,61.91,1,Mailed Check,3,45.8,Yes
+643,51,Monthly,DSL,79.93,63,Credit Card,2,40.3,No
+644,68,Monthly,DSL,71.37,29,Mailed Check,0,211.5,No
+645,58,Monthly,Fiber,48.82,12,Credit Card,0,6.8,No
+646,24,Monthly,DSL,20.65,41,Credit Card,3,144.0,No
+647,21,Monthly,DSL,69.62,2,Electronic Check,1,40.1,No
+648,70,Monthly,DSL,48.56,37,Mailed Check,2,255.7,No
+649,67,Monthly,None,93.46,45,Credit Card,0,287.7,Yes
+650,62,Monthly,Fiber,22.39,48,Bank Transfer,2,287.8,Yes
+651,28,One year,DSL,78.48,24,Bank Transfer,2,135.4,No
+652,46,One year,Fiber,114.15,22,Bank Transfer,1,195.1,No
+653,73,One year,DSL,37.44,11,Electronic Check,5,181.9,No
+654,53,One year,Fiber,67.16,58,Credit Card,2,108.3,No
+655,42,Two year,Fiber,29.14,46,Electronic Check,2,136.0,No
+656,38,Monthly,Fiber,82.57,29,Mailed Check,2,24.0,No
+657,74,Monthly,DSL,75.05,35,Mailed Check,3,239.7,Yes
+658,53,Monthly,Fiber,60.74,15,Credit Card,1,76.0,No
+659,27,One year,DSL,72.14,60,Bank Transfer,0,140.9,No
+660,54,Two year,Fiber,109.66,42,Credit Card,2,146.8,No
+661,26,Monthly,Fiber,39.63,43,Credit Card,0,170.4,No
+662,41,Two year,DSL,22.26,49,Credit Card,2,246.3,No
+663,52,Monthly,Fiber,106.17,64,Electronic Check,3,209.1,No
+664,66,Two year,Fiber,77.71,32,Mailed Check,1,200.6,No
+665,52,Monthly,DSL,109.07,64,Credit Card,1,160.4,No
+666,65,Monthly,Fiber,79.69,2,Credit Card,1,33.3,No
+667,53,Monthly,Fiber,101.02,24,Credit Card,2,123.6,No
+668,35,Monthly,Fiber,62.97,66,Electronic Check,1,287.4,No
+669,66,Monthly,None,94.99,38,Electronic Check,1,298.7,No
+670,56,Monthly,DSL,111.3,31,Electronic Check,0,220.5,No
+671,49,One year,DSL,77.21,26,Credit Card,1,72.1,Yes
+672,41,Monthly,DSL,38.08,29,Bank Transfer,0,35.1,No
+673,40,Monthly,Fiber,46.88,67,Bank Transfer,3,127.4,Yes
+674,49,One year,Fiber,39.86,25,Bank Transfer,2,257.7,No
+675,54,One year,DSL,44.69,48,Mailed Check,0,217.9,No
+676,29,Monthly,Fiber,50.64,65,Credit Card,0,265.7,No
+677,66,Monthly,Fiber,75.51,53,Bank Transfer,0,186.7,No
+678,72,Monthly,Fiber,78.8,67,Bank Transfer,0,43.4,No
+679,30,Monthly,Fiber,62.65,18,Bank Transfer,3,38.9,No
+680,40,One year,None,81.54,9,Credit Card,3,19.2,No
+681,42,Monthly,Fiber,28.16,38,Bank Transfer,3,172.3,No
+682,52,Monthly,DSL,28.78,21,Bank Transfer,2,76.7,No
+683,58,One year,Fiber,37.18,65,Credit Card,1,221.6,No
+684,47,Monthly,None,71.81,21,Mailed Check,1,207.4,No
+685,34,Monthly,Fiber,41.4,27,Electronic Check,2,98.8,No
+686,66,Monthly,Fiber,48.33,70,Bank Transfer,0,57.2,No
+687,37,Two year,DSL,60.03,44,Electronic Check,3,35.2,No
+688,65,Monthly,DSL,101.19,28,Mailed Check,2,222.5,No
+689,42,One year,Fiber,21.39,45,Mailed Check,2,137.9,No
+690,39,Monthly,Fiber,84.94,17,Bank Transfer,1,100.4,No
+691,30,Monthly,Fiber,86.89,40,Credit Card,3,257.7,No
+692,36,One year,Fiber,99.87,3,Mailed Check,2,180.1,No
+693,66,Two year,Fiber,113.28,66,Electronic Check,2,157.8,No
+694,53,One year,Fiber,22.01,46,Electronic Check,1,224.3,No
+695,29,One year,Fiber,35.38,30,Electronic Check,0,245.6,Yes
+696,58,Two year,Fiber,108.62,69,Electronic Check,1,207.4,No
+697,36,Monthly,DSL,65.85,9,Mailed Check,0,134.8,No
+698,29,Monthly,None,76.46,11,Bank Transfer,1,116.9,No
+699,26,One year,DSL,86.3,69,Bank Transfer,1,232.6,No
+700,24,Monthly,Fiber,87.91,66,Electronic Check,0,157.8,No
+701,45,One year,Fiber,113.17,31,Bank Transfer,1,212.8,No
+702,31,Two year,None,119.69,33,Electronic Check,2,267.7,No
+703,48,Monthly,Fiber,92.02,39,Electronic Check,1,275.2,No
+704,69,Monthly,Fiber,48.72,46,Credit Card,0,86.9,No
+705,36,One year,DSL,107.98,37,Mailed Check,1,60.4,No
+706,64,Monthly,DSL,24.92,60,Mailed Check,3,82.1,No
+707,33,One year,DSL,43.11,31,Electronic Check,0,226.7,No
+708,70,Monthly,Fiber,109.74,11,Mailed Check,2,114.2,No
+709,22,One year,Fiber,45.62,2,Bank Transfer,2,56.1,No
+710,52,Monthly,None,42.07,27,Electronic Check,2,34.0,Yes
+711,29,One year,Fiber,33.81,2,Credit Card,0,101.6,No
+712,42,Monthly,DSL,105.91,21,Bank Transfer,4,45.2,No
+713,69,Monthly,DSL,70.01,58,Credit Card,0,51.1,No
+714,38,Monthly,DSL,87.49,5,Credit Card,2,206.7,No
+715,53,One year,Fiber,43.91,52,Mailed Check,0,10.8,No
+716,70,Two year,Fiber,95.8,45,Mailed Check,3,39.7,No
+717,40,Monthly,DSL,96.0,20,Electronic Check,7,254.1,No
+718,33,Monthly,DSL,51.26,61,Mailed Check,2,254.2,No
+719,74,Monthly,None,61.07,38,Credit Card,3,102.1,No
+720,56,One year,Fiber,40.97,20,Credit Card,2,30.9,No
+721,62,One year,Fiber,117.66,25,Bank Transfer,0,213.0,No
+722,70,Monthly,None,84.56,2,Credit Card,1,111.2,No
+723,59,Monthly,DSL,113.45,32,Electronic Check,0,18.4,No
+724,56,Monthly,DSL,50.34,26,Electronic Check,1,51.6,No
+725,31,Monthly,Fiber,98.19,70,Mailed Check,1,45.5,No
+726,48,Monthly,DSL,96.59,41,Mailed Check,0,178.8,No
+727,22,Two year,DSL,89.17,67,Mailed Check,3,269.9,No
+728,52,Monthly,DSL,116.56,1,Electronic Check,1,239.0,No
+729,40,One year,Fiber,59.36,51,Credit Card,3,166.2,No
+730,46,Monthly,Fiber,33.07,5,Mailed Check,3,129.5,Yes
+731,60,Monthly,DSL,87.17,13,Bank Transfer,1,187.5,No
+732,28,One year,Fiber,92.93,19,Mailed Check,3,135.9,No
+733,35,One year,Fiber,77.51,12,Electronic Check,2,77.6,No
+734,64,Two year,None,40.68,48,Mailed Check,2,205.4,No
+735,29,Monthly,Fiber,70.45,25,Credit Card,2,262.6,Yes
+736,26,Monthly,DSL,51.22,57,Mailed Check,2,115.0,No
+737,27,One year,Fiber,62.75,35,Electronic Check,2,253.3,No
+738,61,Monthly,DSL,84.52,5,Electronic Check,3,132.2,Yes
+739,34,Monthly,None,94.52,22,Bank Transfer,1,123.4,No
+740,55,Monthly,Fiber,43.22,57,Electronic Check,2,13.4,Yes
+741,24,Monthly,Fiber,60.53,47,Bank Transfer,2,210.1,No
+742,63,Two year,Fiber,46.92,54,Credit Card,2,243.2,No
+743,30,Monthly,Fiber,39.86,3,Electronic Check,2,200.7,No
+744,57,Monthly,DSL,98.34,53,Mailed Check,1,49.7,No
+745,59,Monthly,None,110.93,31,Credit Card,0,35.5,Yes
+746,26,Monthly,Fiber,57.02,69,Mailed Check,2,174.0,Yes
+747,67,Monthly,Fiber,95.13,33,Mailed Check,0,123.4,No
+748,44,Monthly,Fiber,109.7,50,Mailed Check,2,131.6,No
+749,19,Monthly,DSL,104.61,16,Credit Card,2,290.5,No
+750,22,One year,Fiber,38.28,39,Credit Card,1,218.6,No
+751,46,Monthly,DSL,115.63,46,Electronic Check,2,126.5,No
+752,54,Monthly,DSL,57.67,47,Mailed Check,2,10.6,No
+753,55,Two year,DSL,53.92,44,Bank Transfer,0,15.1,Yes
+754,36,One year,Fiber,26.24,9,Electronic Check,0,207.0,No
+755,25,Monthly,DSL,68.62,50,Credit Card,3,252.1,No
+756,65,Monthly,Fiber,30.9,60,Bank Transfer,3,213.8,No
+757,62,Monthly,Fiber,44.85,15,Credit Card,0,124.7,Yes
+758,18,One year,DSL,51.69,36,Bank Transfer,2,14.2,No
+759,39,Two year,DSL,100.88,63,Electronic Check,1,290.4,No
+760,69,One year,Fiber,107.55,69,Bank Transfer,2,296.0,No
+761,34,Monthly,Fiber,50.25,41,Electronic Check,1,167.1,Yes
+762,24,One year,Fiber,105.87,24,Credit Card,0,25.8,Yes
+763,42,Monthly,Fiber,105.72,49,Bank Transfer,1,164.6,No
+764,62,Monthly,Fiber,96.47,18,Mailed Check,1,268.2,No
+765,21,Monthly,Fiber,34.67,7,Mailed Check,0,205.6,No
+766,53,Two year,Fiber,89.03,4,Credit Card,1,217.4,No
+767,23,Monthly,DSL,114.5,69,Bank Transfer,1,30.1,No
+768,48,One year,DSL,88.25,60,Mailed Check,1,36.4,No
+769,36,Monthly,DSL,53.16,55,Electronic Check,0,42.6,No
+770,61,Monthly,Fiber,70.06,16,Bank Transfer,2,271.8,Yes
+771,71,Monthly,None,84.57,29,Bank Transfer,1,160.1,No
+772,56,Monthly,DSL,71.06,23,Mailed Check,1,238.5,No
+773,44,One year,DSL,32.0,14,Electronic Check,0,39.0,No
+774,27,Monthly,DSL,51.21,49,Electronic Check,3,278.7,Yes
+775,43,One year,None,100.24,33,Electronic Check,3,247.2,No
+776,36,One year,DSL,106.14,25,Bank Transfer,2,71.3,No
+777,56,Two year,Fiber,33.73,21,Credit Card,2,262.9,No
+778,20,Monthly,DSL,115.24,17,Bank Transfer,2,82.7,No
+779,62,Monthly,DSL,52.88,23,Bank Transfer,0,65.6,No
+780,30,Monthly,DSL,86.23,57,Mailed Check,1,83.0,Yes
+781,67,Two year,DSL,95.18,58,Credit Card,1,273.4,Yes
+782,45,Two year,Fiber,101.19,14,Electronic Check,1,275.1,Yes
+783,37,Monthly,Fiber,114.57,20,Mailed Check,2,102.1,No
+784,45,One year,None,51.29,30,Bank Transfer,0,213.1,Yes
+785,25,Monthly,DSL,105.85,19,Credit Card,2,204.3,Yes
+786,58,One year,DSL,33.17,53,Electronic Check,1,242.9,Yes
+787,56,Monthly,Fiber,90.5,56,Electronic Check,0,92.5,No
+788,18,One year,Fiber,94.2,23,Bank Transfer,2,155.5,No
+789,20,Monthly,DSL,87.77,62,Electronic Check,1,202.0,No
+790,30,One year,DSL,45.23,33,Electronic Check,2,12.7,Yes
+791,45,One year,DSL,107.3,18,Credit Card,1,116.1,No
+792,74,One year,Fiber,36.89,33,Mailed Check,2,210.3,No
+793,66,Monthly,DSL,25.36,32,Credit Card,2,79.5,Yes
+794,42,Monthly,Fiber,91.75,61,Mailed Check,0,287.5,No
+795,73,Monthly,DSL,67.55,54,Mailed Check,0,13.9,No
+796,50,Monthly,Fiber,104.91,17,Mailed Check,1,287.6,Yes
+797,55,Monthly,Fiber,58.34,19,Electronic Check,2,68.9,Yes
+798,70,Two year,DSL,36.83,70,Credit Card,2,19.4,No
+799,23,Monthly,None,103.64,34,Electronic Check,0,91.3,Yes
+800,61,Monthly,Fiber,74.89,25,Bank Transfer,0,237.0,No
+801,62,Monthly,DSL,38.92,68,Credit Card,1,227.0,No
+802,49,Monthly,Fiber,92.04,11,Mailed Check,0,66.6,No
+803,62,One year,Fiber,71.11,16,Electronic Check,0,63.1,No
+804,64,Monthly,Fiber,80.43,61,Electronic Check,1,194.6,No
+805,38,Two year,Fiber,66.09,7,Credit Card,1,140.1,No
+806,33,Monthly,DSL,102.87,16,Credit Card,1,238.7,Yes
+807,71,Two year,Fiber,102.96,16,Mailed Check,3,12.1,No
+808,38,Two year,Fiber,90.94,40,Mailed Check,0,185.1,Yes
+809,28,Monthly,None,30.54,12,Bank Transfer,2,220.5,No
+810,54,Two year,Fiber,103.89,35,Mailed Check,4,298.0,No
+811,53,Monthly,DSL,87.1,21,Electronic Check,0,205.2,Yes
+812,52,One year,Fiber,89.7,50,Bank Transfer,0,73.4,Yes
+813,36,Monthly,DSL,56.3,43,Bank Transfer,1,36.9,No
+814,37,Two year,Fiber,107.93,17,Bank Transfer,1,194.1,No
+815,74,Two year,Fiber,92.54,32,Credit Card,2,159.3,No
+816,35,One year,Fiber,31.26,41,Mailed Check,1,270.2,No
+817,64,One year,Fiber,60.78,6,Bank Transfer,1,219.3,Yes
+818,58,Monthly,Fiber,108.64,27,Credit Card,1,155.4,No
+819,66,Monthly,DSL,24.72,20,Credit Card,3,124.1,No
+820,31,Monthly,DSL,116.14,25,Bank Transfer,2,124.3,No
+821,32,Monthly,DSL,87.92,66,Bank Transfer,3,71.8,No
+822,48,One year,DSL,83.14,9,Electronic Check,1,10.1,No
+823,18,Monthly,Fiber,47.06,53,Bank Transfer,0,174.6,No
+824,70,Two year,Fiber,44.88,61,Electronic Check,3,67.7,No
+825,71,One year,Fiber,114.21,38,Bank Transfer,0,66.5,No
+826,71,One year,Fiber,49.83,3,Bank Transfer,0,42.0,No
+827,20,Monthly,DSL,97.55,70,Mailed Check,2,60.9,No
+828,33,Two year,DSL,59.31,55,Bank Transfer,0,14.4,Yes
+829,40,Two year,Fiber,33.93,1,Bank Transfer,1,203.9,Yes
+830,74,Monthly,Fiber,21.07,70,Electronic Check,2,123.4,No
+831,28,One year,DSL,74.43,45,Electronic Check,2,170.6,No
+832,29,One year,DSL,117.58,47,Mailed Check,2,192.9,Yes
+833,27,Monthly,Fiber,56.91,26,Bank Transfer,1,291.9,No
+834,49,Monthly,None,55.72,14,Bank Transfer,4,25.1,No
+835,33,Monthly,None,54.41,54,Electronic Check,2,128.3,No
+836,25,Monthly,Fiber,72.05,71,Credit Card,2,77.5,No
+837,55,Monthly,Fiber,64.07,46,Credit Card,2,145.6,No
+838,29,Monthly,DSL,107.99,31,Credit Card,0,276.5,No
+839,41,Monthly,None,70.55,59,Electronic Check,2,218.6,No
+840,45,Monthly,DSL,70.78,29,Electronic Check,0,200.3,No
+841,70,Two year,Fiber,33.84,17,Credit Card,1,135.2,Yes
+842,25,Monthly,Fiber,118.27,14,Credit Card,2,203.0,No
+843,45,Two year,DSL,45.0,36,Bank Transfer,0,14.6,No
+844,53,Monthly,DSL,27.34,58,Electronic Check,0,177.9,Yes
+845,43,Monthly,Fiber,86.31,24,Electronic Check,1,168.4,No
+846,25,Monthly,DSL,79.54,63,Credit Card,2,107.3,No
+847,67,Monthly,DSL,61.51,25,Credit Card,2,64.4,Yes
+848,45,Monthly,DSL,62.22,59,Mailed Check,2,243.2,No
+849,45,One year,DSL,98.51,32,Electronic Check,1,20.9,No
+850,54,Monthly,DSL,39.57,18,Mailed Check,0,25.6,Yes
+851,58,One year,Fiber,102.03,37,Bank Transfer,0,135.0,No
+852,53,One year,DSL,84.87,26,Mailed Check,3,79.5,No
+853,44,Monthly,Fiber,61.9,9,Credit Card,1,224.9,Yes
+854,71,Monthly,DSL,65.8,64,Electronic Check,1,192.1,Yes
+855,34,One year,Fiber,45.66,20,Electronic Check,1,232.9,Yes
+856,26,Monthly,DSL,95.21,54,Mailed Check,2,100.8,No
+857,50,Monthly,Fiber,71.29,30,Mailed Check,4,223.5,No
+858,70,Two year,Fiber,52.09,53,Bank Transfer,0,259.4,No
+859,37,Monthly,Fiber,79.61,63,Bank Transfer,2,106.9,No
+860,30,One year,Fiber,119.57,11,Credit Card,2,105.3,No
+861,45,Two year,DSL,63.53,31,Credit Card,2,270.5,No
+862,65,Monthly,DSL,112.07,49,Credit Card,2,19.7,No
+863,46,Monthly,DSL,54.5,19,Mailed Check,2,108.3,No
+864,30,Monthly,Fiber,25.47,12,Mailed Check,2,40.0,No
+865,63,Monthly,Fiber,40.42,15,Electronic Check,4,13.5,No
+866,52,Monthly,Fiber,61.87,31,Credit Card,1,38.3,Yes
+867,23,One year,Fiber,41.96,43,Mailed Check,1,132.2,No
+868,35,Monthly,DSL,20.02,37,Electronic Check,3,207.7,No
+869,68,Monthly,Fiber,111.5,29,Credit Card,3,90.3,Yes
+870,22,Two year,Fiber,104.39,26,Bank Transfer,3,255.7,No
+871,64,One year,Fiber,94.23,2,Bank Transfer,3,134.1,No
+872,42,One year,Fiber,36.78,15,Mailed Check,2,290.6,No
+873,19,Monthly,DSL,32.04,4,Electronic Check,0,286.5,Yes
+874,27,One year,DSL,26.76,50,Bank Transfer,0,233.1,No
+875,73,Monthly,Fiber,92.4,38,Electronic Check,2,280.1,No
+876,47,Monthly,Fiber,112.88,23,Electronic Check,2,213.6,Yes
+877,67,Monthly,Fiber,63.05,59,Bank Transfer,2,269.2,Yes
+878,62,Two year,Fiber,31.91,28,Electronic Check,0,74.8,No
+879,22,Monthly,Fiber,71.24,66,Bank Transfer,2,106.9,Yes
+880,72,Monthly,None,54.88,8,Mailed Check,2,227.1,Yes
+881,73,Monthly,DSL,57.48,29,Credit Card,1,130.2,No
+882,50,Monthly,DSL,82.13,11,Credit Card,2,252.0,No
+883,71,One year,Fiber,91.87,18,Mailed Check,1,263.9,No
+884,18,One year,Fiber,31.06,55,Bank Transfer,1,93.4,No
+885,35,One year,DSL,23.56,50,Bank Transfer,1,247.9,Yes
+886,49,Monthly,DSL,119.43,14,Bank Transfer,1,50.5,No
+887,64,Monthly,DSL,43.27,9,Bank Transfer,2,103.6,Yes
+888,66,Monthly,Fiber,25.38,11,Mailed Check,1,157.8,No
+889,28,Monthly,DSL,38.99,63,Credit Card,0,71.8,No
+890,38,Monthly,Fiber,23.9,67,Electronic Check,3,175.9,No
+891,43,One year,DSL,59.18,53,Electronic Check,4,175.7,No
+892,42,Monthly,DSL,100.24,39,Credit Card,0,66.0,Yes
+893,39,Monthly,DSL,54.12,56,Mailed Check,2,239.7,No
+894,44,Monthly,Fiber,64.42,28,Electronic Check,1,191.3,No
+895,66,Monthly,DSL,87.56,39,Credit Card,1,98.7,No
+896,30,Monthly,Fiber,70.89,25,Mailed Check,2,73.5,Yes
+897,50,Two year,Fiber,106.14,21,Electronic Check,2,264.2,Yes
+898,51,One year,Fiber,106.6,10,Bank Transfer,0,251.5,No
+899,58,Two year,DSL,20.99,43,Bank Transfer,1,72.8,No
+900,52,Monthly,Fiber,97.8,15,Mailed Check,1,15.5,No
+901,18,Monthly,Fiber,66.07,48,Bank Transfer,1,242.3,No
+902,38,Monthly,DSL,118.88,21,Mailed Check,2,186.6,No
+903,65,Monthly,Fiber,68.32,60,Credit Card,2,34.8,No
+904,72,One year,DSL,118.69,50,Credit Card,2,178.3,No
+905,23,Monthly,Fiber,95.46,23,Electronic Check,1,138.4,No
+906,45,Monthly,Fiber,44.86,13,Mailed Check,3,233.5,No
+907,34,Monthly,DSL,73.84,69,Electronic Check,4,66.7,No
+908,22,Monthly,Fiber,119.21,4,Electronic Check,2,138.7,No
+909,48,One year,Fiber,105.75,9,Credit Card,2,51.1,No
+910,22,Monthly,DSL,29.74,35,Electronic Check,0,287.5,No
+911,55,Monthly,DSL,90.64,21,Bank Transfer,2,234.7,No
+912,20,Monthly,DSL,54.56,58,Electronic Check,3,222.3,No
+913,70,Monthly,Fiber,20.7,18,Mailed Check,1,208.6,Yes
+914,40,One year,Fiber,60.35,43,Bank Transfer,1,129.9,No
+915,54,Two year,DSL,43.48,6,Credit Card,2,277.4,Yes
+916,70,Two year,DSL,101.89,67,Mailed Check,0,26.5,No
+917,54,One year,DSL,53.73,12,Bank Transfer,2,242.0,No
+918,27,Monthly,DSL,102.75,12,Mailed Check,1,68.5,No
+919,27,One year,DSL,20.06,66,Bank Transfer,1,100.6,No
+920,36,Monthly,Fiber,50.78,2,Mailed Check,1,158.2,No
+921,34,Monthly,Fiber,44.12,15,Mailed Check,1,235.9,No
+922,38,One year,DSL,43.36,23,Bank Transfer,0,252.4,No
+923,31,Monthly,Fiber,26.82,29,Credit Card,2,177.2,Yes
+924,26,Two year,Fiber,38.71,7,Credit Card,0,123.9,No
+925,63,Monthly,DSL,75.55,28,Mailed Check,0,284.2,No
+926,18,One year,DSL,49.14,14,Mailed Check,2,77.7,No
+927,68,One year,Fiber,61.74,44,Credit Card,4,241.9,No
+928,62,Two year,Fiber,57.69,30,Credit Card,0,185.6,No
+929,30,One year,Fiber,107.59,32,Electronic Check,1,116.2,No
+930,21,One year,DSL,110.53,70,Credit Card,2,5.4,No
+931,18,Monthly,None,69.3,6,Mailed Check,1,136.7,No
+932,66,Monthly,Fiber,53.02,27,Bank Transfer,1,86.6,No
+933,57,Monthly,Fiber,30.68,24,Credit Card,0,35.8,No
+934,49,One year,DSL,115.34,34,Electronic Check,1,27.2,Yes
+935,51,Monthly,Fiber,26.02,40,Electronic Check,0,107.5,Yes
+936,45,One year,DSL,49.77,47,Electronic Check,0,186.4,Yes
+937,48,Monthly,None,49.81,24,Bank Transfer,2,252.1,No
+938,25,Monthly,Fiber,52.04,65,Credit Card,0,59.2,No
+939,56,One year,DSL,36.43,18,Credit Card,1,130.3,No
+940,43,Monthly,Fiber,98.32,44,Credit Card,3,120.6,No
+941,51,Monthly,Fiber,32.25,57,Bank Transfer,4,156.5,No
+942,71,Monthly,DSL,83.49,28,Bank Transfer,1,243.8,Yes
+943,71,Two year,Fiber,32.38,71,Mailed Check,1,168.3,No
+944,20,One year,None,27.05,23,Electronic Check,2,254.8,No
+945,67,Monthly,DSL,110.94,34,Electronic Check,0,158.0,No
+946,29,Monthly,Fiber,39.01,11,Credit Card,2,183.1,No
+947,18,Monthly,Fiber,102.13,35,Bank Transfer,4,134.0,No
+948,71,One year,Fiber,74.46,42,Bank Transfer,2,247.8,No
+949,61,One year,Fiber,27.79,28,Credit Card,1,277.5,No
+950,22,Monthly,Fiber,115.54,24,Credit Card,0,193.5,No
+951,47,Monthly,Fiber,44.7,8,Mailed Check,6,247.1,Yes
+952,47,Monthly,Fiber,105.96,53,Electronic Check,1,22.4,No
+953,74,One year,DSL,36.88,4,Electronic Check,1,272.3,Yes
+954,34,One year,DSL,105.39,5,Electronic Check,4,60.7,No
+955,65,Monthly,DSL,21.32,49,Mailed Check,1,80.7,No
+956,64,Monthly,Fiber,71.18,30,Credit Card,1,20.7,Yes
+957,40,Monthly,Fiber,96.94,63,Credit Card,0,289.8,No
+958,32,Two year,DSL,113.48,47,Electronic Check,2,256.3,No
+959,54,Monthly,Fiber,110.92,26,Electronic Check,1,274.4,No
+960,38,One year,Fiber,101.96,57,Mailed Check,3,254.9,Yes
+961,31,One year,DSL,108.82,37,Bank Transfer,3,146.5,No
+962,19,Monthly,DSL,39.92,7,Bank Transfer,2,277.6,No
+963,28,Monthly,DSL,48.42,40,Electronic Check,0,291.0,No
+964,68,Monthly,Fiber,48.9,39,Mailed Check,1,153.3,No
+965,56,One year,DSL,57.71,62,Electronic Check,0,56.8,Yes
+966,55,One year,DSL,59.33,53,Bank Transfer,6,199.3,No
+967,51,One year,DSL,74.46,4,Electronic Check,3,292.8,No
+968,55,Monthly,DSL,35.99,25,Bank Transfer,2,262.3,No
+969,67,Monthly,DSL,89.12,7,Bank Transfer,4,259.2,Yes
+970,51,Two year,DSL,36.76,28,Bank Transfer,0,280.5,Yes
+971,35,One year,Fiber,51.03,69,Credit Card,0,268.7,Yes
+972,47,Monthly,DSL,70.33,67,Credit Card,2,234.0,No
+973,32,Two year,DSL,99.64,20,Electronic Check,2,216.9,Yes
+974,44,One year,DSL,93.95,11,Bank Transfer,2,83.1,No
+975,68,Monthly,Fiber,84.55,67,Credit Card,0,188.3,Yes
+976,51,One year,Fiber,35.58,7,Electronic Check,2,158.8,No
+977,69,One year,DSL,74.7,23,Electronic Check,3,259.3,No
+978,74,One year,DSL,28.74,61,Electronic Check,1,150.1,No
+979,55,Monthly,None,57.74,71,Electronic Check,5,42.7,No
+980,50,Monthly,DSL,61.35,34,Electronic Check,0,6.5,No
+981,41,Two year,DSL,23.98,19,Mailed Check,2,205.0,Yes
+982,32,Monthly,DSL,47.4,58,Bank Transfer,0,167.2,Yes
+983,47,Monthly,DSL,115.56,9,Electronic Check,1,102.6,No
+984,72,Monthly,DSL,115.36,48,Mailed Check,0,54.8,No
+985,59,Monthly,DSL,55.23,41,Bank Transfer,1,142.7,Yes
+986,68,One year,Fiber,24.31,48,Credit Card,4,34.6,No
+987,34,Two year,Fiber,37.91,45,Electronic Check,2,104.2,No
+988,22,Monthly,DSL,59.22,25,Mailed Check,2,116.9,No
+989,46,Monthly,Fiber,114.78,25,Credit Card,5,142.4,No
+990,21,Monthly,Fiber,34.12,19,Mailed Check,2,142.7,No
+991,27,Two year,Fiber,96.35,39,Bank Transfer,0,80.8,No
+992,73,One year,Fiber,30.87,27,Bank Transfer,1,255.8,No
+993,34,Monthly,Fiber,118.13,63,Credit Card,5,109.9,No
+994,27,One year,Fiber,58.16,68,Mailed Check,1,72.7,Yes
+995,34,Two year,None,97.52,19,Electronic Check,1,56.9,No
+996,37,One year,DSL,54.26,28,Electronic Check,2,100.2,No
+997,41,Two year,Fiber,82.77,33,Credit Card,2,24.9,No
+998,22,Monthly,Fiber,39.2,10,Credit Card,2,14.7,No
+999,51,One year,DSL,34.6,30,Credit Card,0,183.5,No
+1000,23,Monthly,Fiber,113.81,22,Mailed Check,4,187.6,No
+1001,70,One year,DSL,111.76,3,Electronic Check,0,161.2,No
+1002,19,One year,DSL,108.75,48,Electronic Check,2,229.9,No
+1003,30,One year,DSL,82.54,2,Electronic Check,2,16.5,No
+1004,60,One year,Fiber,100.83,54,Credit Card,3,281.1,No
+1005,60,Monthly,DSL,26.9,6,Electronic Check,2,33.0,No
+1006,65,Monthly,Fiber,53.48,40,Bank Transfer,3,203.8,No
+1007,28,Two year,None,51.37,2,Credit Card,0,44.4,Yes
+1008,68,Two year,DSL,83.56,2,Electronic Check,2,264.6,No
+1009,64,Monthly,Fiber,55.6,55,Mailed Check,3,155.7,No
+1010,74,Monthly,Fiber,34.85,60,Credit Card,2,29.3,No
+1011,40,Monthly,Fiber,79.65,6,Bank Transfer,0,186.9,Yes
+1012,72,One year,DSL,101.44,19,Bank Transfer,1,7.7,No
+1013,33,One year,Fiber,58.21,27,Mailed Check,1,233.9,No
+1014,48,Monthly,DSL,33.23,1,Mailed Check,1,196.9,No
+1015,28,Monthly,Fiber,39.67,33,Credit Card,4,67.7,No
+1016,71,One year,DSL,43.75,40,Credit Card,2,115.6,No
+1017,33,One year,DSL,49.99,32,Bank Transfer,2,7.3,No
+1018,25,Monthly,DSL,84.28,69,Mailed Check,1,209.6,No
+1019,21,Monthly,DSL,80.09,17,Credit Card,1,100.2,Yes
+1020,57,Monthly,Fiber,89.61,8,Bank Transfer,1,173.6,No
+1021,21,Monthly,Fiber,56.25,57,Mailed Check,4,287.2,No
+1022,73,Monthly,DSL,102.4,42,Bank Transfer,1,93.3,No
+1023,42,One year,Fiber,40.41,9,Electronic Check,1,297.1,Yes
+1024,20,Two year,Fiber,66.9,35,Mailed Check,4,191.7,No
+1025,49,One year,Fiber,100.09,71,Credit Card,2,76.4,Yes
+1026,20,One year,Fiber,38.02,53,Credit Card,1,133.8,No
+1027,44,Monthly,Fiber,30.99,54,Electronic Check,4,223.4,No
+1028,46,Monthly,DSL,108.37,25,Mailed Check,0,136.7,No
+1029,49,Monthly,Fiber,54.29,67,Bank Transfer,1,25.2,Yes
+1030,67,Monthly,DSL,88.39,62,Credit Card,2,54.7,No
+1031,68,One year,Fiber,22.53,55,Electronic Check,2,238.4,No
+1032,36,Two year,DSL,89.0,46,Electronic Check,2,196.3,No
+1033,38,Monthly,Fiber,51.61,24,Mailed Check,1,173.1,No
+1034,22,Monthly,DSL,25.57,46,Mailed Check,1,54.4,No
+1035,35,One year,DSL,80.98,22,Credit Card,0,252.1,Yes
+1036,45,Monthly,Fiber,44.08,11,Electronic Check,1,288.4,No
+1037,59,Monthly,None,58.68,48,Bank Transfer,1,17.1,No
+1038,39,One year,None,28.06,8,Electronic Check,3,28.0,No
+1039,38,One year,DSL,34.72,39,Bank Transfer,1,266.0,No
+1040,23,Monthly,DSL,49.8,35,Bank Transfer,2,245.6,No
+1041,18,Monthly,Fiber,28.98,49,Credit Card,1,187.3,No
+1042,22,One year,DSL,111.08,46,Electronic Check,1,283.8,No
+1043,58,Monthly,Fiber,20.6,38,Bank Transfer,3,195.7,Yes
+1044,29,Monthly,Fiber,68.39,8,Mailed Check,1,68.7,No
+1045,43,One year,None,32.32,54,Bank Transfer,0,219.9,No
+1046,63,Monthly,Fiber,50.77,37,Mailed Check,1,195.5,No
+1047,51,One year,DSL,112.61,40,Mailed Check,4,295.8,No
+1048,66,Monthly,DSL,36.17,34,Electronic Check,3,68.1,No
+1049,31,Two year,DSL,116.58,17,Mailed Check,1,181.4,Yes
+1050,43,Monthly,None,40.58,33,Bank Transfer,1,235.1,No
+1051,62,Monthly,Fiber,94.16,47,Mailed Check,2,105.0,Yes
+1052,44,Monthly,Fiber,74.67,52,Electronic Check,0,117.0,No
+1053,26,Monthly,Fiber,108.45,9,Credit Card,1,266.9,No
+1054,43,Two year,Fiber,75.4,33,Bank Transfer,3,124.2,Yes
+1055,74,Two year,Fiber,73.46,60,Bank Transfer,0,189.3,Yes
+1056,64,Monthly,Fiber,39.55,21,Electronic Check,1,267.3,Yes
+1057,74,Monthly,DSL,36.62,58,Electronic Check,3,66.9,No
+1058,39,One year,DSL,111.65,69,Electronic Check,5,294.7,No
+1059,64,Two year,Fiber,52.78,10,Electronic Check,2,212.1,No
+1060,73,Monthly,DSL,57.21,6,Bank Transfer,1,151.4,No
+1061,47,Monthly,Fiber,95.98,13,Credit Card,1,132.1,No
+1062,60,Monthly,Fiber,53.88,65,Mailed Check,0,286.5,Yes
+1063,65,One year,DSL,115.21,20,Mailed Check,3,65.7,No
+1064,34,Monthly,DSL,93.79,57,Credit Card,1,96.9,Yes
+1065,43,One year,DSL,79.74,46,Credit Card,2,95.8,No
+1066,53,Monthly,Fiber,108.09,8,Credit Card,2,90.3,No
+1067,18,One year,DSL,24.96,10,Electronic Check,1,143.2,No
+1068,25,Monthly,DSL,45.71,67,Bank Transfer,2,296.8,No
+1069,66,Monthly,DSL,66.5,11,Bank Transfer,2,267.2,Yes
+1070,52,Monthly,DSL,42.7,12,Bank Transfer,1,101.7,No
+1071,69,One year,DSL,94.39,10,Electronic Check,1,129.7,No
+1072,32,Monthly,DSL,111.92,25,Bank Transfer,2,202.5,No
+1073,64,Monthly,DSL,62.38,49,Electronic Check,0,10.1,No
+1074,73,Monthly,None,54.21,49,Bank Transfer,0,246.9,Yes
+1075,39,Monthly,DSL,116.16,11,Credit Card,1,264.5,No
+1076,31,One year,Fiber,64.49,62,Mailed Check,0,257.9,No
+1077,43,One year,DSL,68.9,36,Mailed Check,2,115.6,Yes
+1078,45,One year,Fiber,55.16,39,Electronic Check,4,141.3,No
+1079,40,Monthly,Fiber,110.95,53,Bank Transfer,2,8.7,Yes
+1080,31,One year,DSL,76.9,56,Mailed Check,4,122.8,No
+1081,41,Monthly,None,96.22,1,Credit Card,2,140.8,No
+1082,19,Monthly,None,101.18,56,Credit Card,6,272.6,Yes
+1083,62,Monthly,Fiber,54.18,4,Credit Card,0,268.7,Yes
+1084,43,Monthly,DSL,63.37,30,Electronic Check,1,290.0,No
+1085,31,One year,Fiber,104.85,12,Electronic Check,1,266.1,No
+1086,73,One year,None,56.33,35,Bank Transfer,4,7.4,Yes
+1087,68,One year,None,99.39,52,Credit Card,2,194.2,No
+1088,24,Monthly,DSL,114.1,31,Bank Transfer,2,25.1,No
+1089,20,Monthly,DSL,82.32,68,Bank Transfer,2,85.4,No
+1090,64,Monthly,DSL,94.16,52,Credit Card,1,175.6,No
+1091,40,Monthly,DSL,100.51,7,Bank Transfer,0,211.7,No
+1092,63,Monthly,Fiber,104.5,22,Mailed Check,1,198.1,Yes
+1093,60,Monthly,Fiber,59.51,56,Electronic Check,1,19.5,No
+1094,64,Monthly,DSL,25.13,58,Bank Transfer,2,35.6,Yes
+1095,62,Monthly,DSL,60.19,64,Credit Card,1,42.9,No
+1096,35,One year,Fiber,87.38,12,Electronic Check,4,32.0,No
+1097,55,Two year,None,65.04,7,Electronic Check,2,57.6,No
+1098,52,Two year,Fiber,94.9,55,Bank Transfer,1,208.1,No
+1099,68,One year,DSL,55.7,62,Mailed Check,0,250.1,No
+1100,32,Monthly,DSL,83.47,55,Bank Transfer,1,125.6,No
+1101,42,One year,DSL,38.64,36,Mailed Check,3,209.4,No
+1102,72,One year,DSL,94.94,24,Electronic Check,2,64.0,No
+1103,54,Monthly,Fiber,74.57,44,Bank Transfer,2,292.1,No
+1104,45,Monthly,Fiber,40.41,17,Credit Card,3,108.2,Yes
+1105,27,One year,DSL,49.19,2,Bank Transfer,1,254.5,Yes
+1106,56,Monthly,DSL,94.86,13,Mailed Check,4,283.9,No
+1107,74,Monthly,Fiber,68.26,31,Mailed Check,4,260.1,No
+1108,34,Monthly,DSL,41.6,28,Bank Transfer,2,24.8,No
+1109,56,Monthly,Fiber,116.73,60,Mailed Check,3,196.8,Yes
+1110,39,Monthly,DSL,91.51,27,Electronic Check,3,40.4,No
+1111,43,Monthly,DSL,115.71,15,Bank Transfer,1,6.7,No
+1112,61,Monthly,Fiber,62.71,33,Mailed Check,2,20.3,Yes
+1113,42,Monthly,Fiber,67.51,20,Bank Transfer,0,275.3,Yes
+1114,34,One year,DSL,109.8,42,Bank Transfer,1,273.0,No
+1115,30,Monthly,DSL,72.5,12,Credit Card,0,71.6,No
+1116,37,Monthly,DSL,90.73,23,Bank Transfer,0,166.4,No
+1117,42,Monthly,DSL,45.22,14,Credit Card,2,286.7,No
+1118,21,Two year,DSL,64.67,25,Mailed Check,1,151.5,No
+1119,27,Monthly,None,32.34,31,Credit Card,2,121.1,No
+1120,20,Monthly,DSL,40.6,54,Credit Card,1,147.6,No
+1121,58,Two year,Fiber,20.09,5,Credit Card,3,238.1,No
+1122,62,One year,Fiber,23.93,13,Electronic Check,3,145.8,No
+1123,35,Monthly,Fiber,117.73,28,Credit Card,2,236.1,Yes
+1124,64,One year,DSL,44.24,43,Bank Transfer,1,132.4,No
+1125,53,Monthly,Fiber,86.33,47,Credit Card,1,79.3,Yes
+1126,64,Monthly,None,103.91,71,Bank Transfer,0,101.3,Yes
+1127,39,Monthly,DSL,75.07,38,Credit Card,0,28.0,No
+1128,51,Monthly,DSL,35.31,67,Electronic Check,3,151.7,No
+1129,64,One year,Fiber,92.81,62,Mailed Check,3,48.7,No
+1130,25,Monthly,Fiber,80.03,39,Credit Card,3,244.4,No
+1131,57,Monthly,Fiber,93.13,37,Credit Card,0,129.1,Yes
+1132,66,One year,Fiber,96.97,8,Electronic Check,2,230.7,No
+1133,61,One year,Fiber,117.54,52,Credit Card,1,286.6,No
+1134,36,Monthly,DSL,77.36,33,Bank Transfer,1,255.6,No
+1135,59,One year,DSL,54.16,42,Credit Card,3,285.7,No
+1136,58,Monthly,DSL,84.85,27,Credit Card,2,172.5,No
+1137,54,One year,DSL,26.84,8,Mailed Check,2,53.8,No
+1138,23,One year,Fiber,109.74,23,Mailed Check,1,280.9,No
+1139,69,Two year,DSL,31.94,64,Credit Card,2,261.2,No
+1140,43,Monthly,DSL,52.78,20,Electronic Check,2,260.0,Yes
+1141,51,Monthly,Fiber,101.57,16,Mailed Check,0,209.5,No
+1142,73,Monthly,DSL,79.73,17,Credit Card,2,189.4,No
+1143,62,Monthly,Fiber,59.36,19,Mailed Check,1,9.3,No
+1144,23,Monthly,DSL,67.34,8,Credit Card,0,225.7,No
+1145,54,Two year,None,105.45,38,Mailed Check,3,32.0,No
+1146,74,Monthly,Fiber,54.0,38,Mailed Check,0,81.6,No
+1147,50,Monthly,DSL,106.96,53,Bank Transfer,1,167.7,No
+1148,70,One year,DSL,28.81,31,Credit Card,1,138.3,No
+1149,39,Monthly,None,97.68,44,Credit Card,1,9.7,No
+1150,38,One year,Fiber,104.75,60,Credit Card,4,248.1,No
+1151,23,Monthly,DSL,38.18,17,Credit Card,1,264.2,No
+1152,23,Monthly,Fiber,63.03,39,Mailed Check,1,206.2,No
+1153,72,Monthly,Fiber,36.55,42,Bank Transfer,3,164.6,No
+1154,65,Monthly,Fiber,90.66,48,Bank Transfer,2,288.4,No
+1155,21,Two year,None,73.53,12,Electronic Check,0,40.4,No
+1156,47,Monthly,DSL,83.53,18,Credit Card,0,222.7,No
+1157,28,Monthly,DSL,39.65,6,Electronic Check,3,42.9,Yes
+1158,47,Monthly,None,41.17,43,Mailed Check,1,117.6,No
+1159,48,Monthly,Fiber,24.15,35,Electronic Check,1,177.7,No
+1160,41,Two year,Fiber,52.21,54,Credit Card,0,222.4,No
+1161,72,Monthly,Fiber,75.97,62,Bank Transfer,2,6.1,No
+1162,26,One year,Fiber,105.79,69,Bank Transfer,2,81.9,No
+1163,72,Two year,Fiber,86.69,16,Credit Card,1,163.8,No
+1164,20,Monthly,Fiber,63.54,8,Mailed Check,3,162.2,Yes
+1165,68,Two year,Fiber,115.31,31,Credit Card,6,193.1,No
+1166,48,Monthly,Fiber,91.92,10,Mailed Check,1,94.6,No
+1167,57,Monthly,Fiber,113.02,56,Bank Transfer,3,164.5,No
+1168,54,Monthly,Fiber,72.76,70,Mailed Check,0,61.0,No
+1169,53,One year,None,45.89,20,Credit Card,1,60.1,No
+1170,41,Two year,DSL,25.28,5,Credit Card,2,175.1,No
+1171,48,Monthly,None,92.61,23,Credit Card,0,207.2,No
+1172,23,One year,Fiber,32.13,9,Mailed Check,1,40.5,No
+1173,19,Monthly,Fiber,50.28,58,Mailed Check,2,41.2,No
+1174,37,Monthly,DSL,73.25,59,Mailed Check,1,171.8,No
+1175,45,Monthly,Fiber,76.44,54,Bank Transfer,1,84.7,No
+1176,28,Two year,Fiber,80.06,46,Electronic Check,1,120.8,No
+1177,21,One year,Fiber,36.63,22,Electronic Check,0,123.2,No
+1178,32,Monthly,Fiber,57.97,64,Credit Card,0,57.7,No
+1179,23,Monthly,Fiber,81.72,8,Bank Transfer,3,5.4,Yes
+1180,71,Monthly,Fiber,116.98,20,Mailed Check,0,256.7,No
+1181,66,Monthly,DSL,92.76,51,Credit Card,0,215.9,No
+1182,47,Monthly,Fiber,112.26,39,Bank Transfer,3,208.7,Yes
+1183,73,Two year,Fiber,96.22,37,Credit Card,0,166.2,No
+1184,55,Monthly,DSL,79.17,50,Bank Transfer,2,211.8,No
+1185,68,Monthly,Fiber,39.2,34,Bank Transfer,4,281.0,No
+1186,74,Monthly,Fiber,86.67,33,Electronic Check,1,201.4,No
+1187,19,Two year,DSL,82.34,31,Credit Card,1,83.2,No
+1188,32,One year,Fiber,80.25,54,Mailed Check,3,173.3,No
+1189,28,Monthly,Fiber,68.98,44,Electronic Check,0,135.5,Yes
+1190,25,One year,Fiber,72.87,34,Electronic Check,3,169.1,No
+1191,43,Monthly,Fiber,53.44,71,Mailed Check,2,157.7,No
+1192,68,Monthly,DSL,71.93,62,Bank Transfer,2,258.3,No
+1193,62,Monthly,DSL,39.76,23,Mailed Check,0,197.3,No
+1194,61,Monthly,Fiber,100.52,46,Credit Card,1,60.7,No
+1195,22,Monthly,DSL,38.58,56,Mailed Check,4,23.6,No
+1196,23,Two year,DSL,28.5,7,Bank Transfer,1,130.2,No
+1197,43,One year,Fiber,63.62,61,Mailed Check,0,9.6,No
+1198,71,One year,DSL,85.83,3,Bank Transfer,2,98.9,Yes
+1199,21,Monthly,Fiber,63.77,38,Bank Transfer,1,113.6,No
+1200,36,Monthly,Fiber,47.68,34,Credit Card,1,115.8,No
+1201,37,One year,Fiber,75.82,44,Mailed Check,3,293.9,No
+1202,50,Monthly,Fiber,54.7,30,Mailed Check,0,94.7,Yes
+1203,37,Monthly,Fiber,113.29,17,Credit Card,4,83.2,No
+1204,66,Monthly,DSL,112.26,59,Bank Transfer,0,43.2,No
+1205,29,One year,Fiber,70.24,10,Mailed Check,2,155.7,Yes
+1206,64,Monthly,Fiber,52.79,18,Credit Card,2,50.3,No
+1207,18,Monthly,Fiber,93.71,45,Bank Transfer,0,186.8,No
+1208,43,One year,DSL,23.67,59,Credit Card,4,50.8,No
+1209,31,Monthly,DSL,67.48,62,Mailed Check,0,175.1,No
+1210,55,Monthly,DSL,53.63,59,Credit Card,1,248.7,Yes
+1211,54,Monthly,DSL,112.05,49,Electronic Check,2,17.5,No
+1212,28,Monthly,DSL,21.2,63,Bank Transfer,0,128.8,No
+1213,53,One year,Fiber,75.28,32,Electronic Check,1,141.0,Yes
+1214,30,Monthly,DSL,94.07,10,Electronic Check,1,238.4,No
+1215,60,Monthly,DSL,68.5,11,Bank Transfer,1,143.0,No
+1216,20,Two year,None,28.54,70,Bank Transfer,2,172.4,No
+1217,50,Two year,DSL,117.25,62,Credit Card,1,238.4,No
+1218,23,Two year,Fiber,71.8,47,Bank Transfer,0,170.1,No
+1219,67,Monthly,Fiber,81.42,34,Electronic Check,0,110.7,Yes
+1220,73,Monthly,Fiber,43.66,17,Electronic Check,4,30.3,No
+1221,27,Two year,DSL,68.35,54,Mailed Check,1,220.3,No
+1222,22,One year,Fiber,62.91,40,Bank Transfer,1,262.0,No
+1223,40,Monthly,Fiber,27.49,19,Electronic Check,1,291.2,No
+1224,27,Monthly,DSL,30.62,67,Mailed Check,1,278.3,No
+1225,61,Monthly,Fiber,103.75,53,Mailed Check,3,240.2,No
+1226,19,Two year,DSL,43.98,64,Credit Card,0,194.8,Yes
+1227,30,Monthly,Fiber,39.5,47,Electronic Check,2,235.5,No
+1228,57,Monthly,Fiber,70.49,6,Credit Card,2,132.5,No
+1229,19,Monthly,Fiber,96.87,16,Electronic Check,1,180.5,No
+1230,37,One year,DSL,26.19,18,Credit Card,3,107.9,No
+1231,18,One year,Fiber,77.68,52,Credit Card,2,101.4,No
+1232,54,Monthly,Fiber,31.92,48,Bank Transfer,1,228.2,No
+1233,26,One year,None,23.65,43,Credit Card,1,138.9,No
+1234,34,Two year,Fiber,25.27,39,Bank Transfer,1,67.6,Yes
+1235,26,Monthly,DSL,103.42,49,Mailed Check,2,64.6,No
+1236,28,Monthly,DSL,31.8,12,Electronic Check,3,258.5,No
+1237,32,Monthly,Fiber,24.52,10,Mailed Check,1,204.9,No
+1238,41,One year,DSL,63.79,71,Electronic Check,2,166.1,No
+1239,55,Monthly,Fiber,104.4,55,Mailed Check,2,123.3,No
+1240,72,One year,DSL,46.24,1,Electronic Check,0,132.1,No
+1241,52,One year,Fiber,62.17,49,Credit Card,3,21.9,No
+1242,47,Monthly,DSL,23.99,36,Electronic Check,0,139.2,No
+1243,48,Two year,Fiber,64.91,21,Electronic Check,1,239.7,No
+1244,66,Monthly,DSL,77.76,37,Mailed Check,1,119.5,No
+1245,22,Monthly,Fiber,77.09,24,Mailed Check,1,118.2,No
+1246,61,One year,Fiber,53.24,55,Mailed Check,2,9.6,Yes
+1247,67,One year,Fiber,51.55,25,Bank Transfer,1,140.1,No
+1248,31,Monthly,Fiber,30.66,7,Bank Transfer,5,12.5,Yes
+1249,70,Two year,DSL,56.68,71,Electronic Check,0,173.3,No
+1250,73,Two year,Fiber,29.95,71,Electronic Check,1,154.5,Yes
+1251,28,Monthly,None,96.66,24,Credit Card,1,252.8,No
+1252,26,Two year,None,116.63,11,Credit Card,1,176.6,No
+1253,51,Monthly,DSL,117.01,12,Electronic Check,1,100.4,No
+1254,29,Monthly,Fiber,106.51,35,Bank Transfer,2,157.3,No
+1255,52,Monthly,Fiber,80.08,63,Electronic Check,2,211.4,No
+1256,52,Two year,DSL,90.09,68,Credit Card,1,32.7,No
+1257,18,One year,Fiber,48.52,57,Bank Transfer,1,188.2,No
+1258,57,Monthly,Fiber,83.08,13,Bank Transfer,4,275.4,No
+1259,39,Monthly,DSL,65.56,23,Credit Card,2,93.2,No
+1260,46,One year,DSL,68.2,39,Electronic Check,1,189.9,No
+1261,25,Monthly,DSL,95.78,12,Mailed Check,1,247.3,No
+1262,28,Two year,Fiber,48.19,34,Electronic Check,1,156.0,No
+1263,58,One year,DSL,51.8,71,Electronic Check,0,216.8,Yes
+1264,54,Monthly,Fiber,112.46,31,Credit Card,0,96.7,No
+1265,31,Two year,Fiber,25.62,62,Bank Transfer,3,95.3,No
+1266,47,Monthly,DSL,68.56,13,Credit Card,2,201.9,No
+1267,52,Two year,Fiber,111.28,31,Electronic Check,1,213.1,No
+1268,38,One year,Fiber,81.04,2,Mailed Check,1,281.4,No
+1269,54,One year,Fiber,74.64,15,Mailed Check,1,71.3,No
+1270,22,Monthly,DSL,44.97,57,Mailed Check,3,143.1,Yes
+1271,36,Two year,DSL,54.33,34,Credit Card,0,78.9,No
+1272,31,Monthly,DSL,105.2,68,Bank Transfer,1,28.6,No
+1273,43,Monthly,DSL,75.92,29,Credit Card,1,124.0,Yes
+1274,21,Monthly,Fiber,71.47,66,Mailed Check,0,115.4,Yes
+1275,42,Monthly,Fiber,29.96,16,Electronic Check,1,84.8,No
+1276,62,Monthly,Fiber,21.6,39,Bank Transfer,0,92.6,No
+1277,59,One year,Fiber,116.37,37,Credit Card,0,111.3,No
+1278,42,Two year,Fiber,57.7,21,Credit Card,0,296.7,No
+1279,35,Monthly,None,80.32,44,Bank Transfer,1,236.0,No
+1280,57,One year,Fiber,27.97,19,Bank Transfer,2,26.1,No
+1281,25,Monthly,Fiber,88.31,71,Electronic Check,1,262.4,Yes
+1282,56,Two year,Fiber,113.26,8,Bank Transfer,1,191.8,No
+1283,57,One year,Fiber,77.57,66,Electronic Check,1,267.7,No
+1284,31,Monthly,None,32.61,41,Mailed Check,1,105.8,No
+1285,49,One year,Fiber,78.17,70,Mailed Check,2,142.0,No
+1286,68,Monthly,Fiber,96.63,61,Credit Card,2,269.4,No
+1287,55,Monthly,DSL,60.64,26,Mailed Check,0,85.4,No
+1288,50,One year,Fiber,107.98,71,Mailed Check,3,275.1,No
+1289,40,Monthly,Fiber,84.87,70,Electronic Check,3,249.4,No
+1290,32,Monthly,Fiber,109.92,29,Credit Card,0,294.3,No
+1291,50,Monthly,DSL,82.35,66,Bank Transfer,1,100.7,No
+1292,42,One year,None,33.13,19,Credit Card,4,74.5,No
+1293,34,Monthly,DSL,50.97,68,Mailed Check,1,102.6,No
+1294,50,Monthly,Fiber,40.18,58,Bank Transfer,1,286.6,No
+1295,64,One year,DSL,110.88,70,Credit Card,1,103.3,No
+1296,72,One year,Fiber,96.04,57,Credit Card,1,171.7,No
+1297,19,Monthly,Fiber,87.64,37,Credit Card,1,124.1,No
+1298,31,Monthly,Fiber,50.1,61,Credit Card,1,121.9,No
+1299,70,Monthly,Fiber,38.4,30,Electronic Check,2,62.0,No
+1300,57,Monthly,DSL,95.65,71,Credit Card,1,163.4,Yes
+1301,57,Monthly,DSL,67.42,25,Mailed Check,0,255.6,No
+1302,68,One year,None,42.58,65,Mailed Check,1,19.6,No
+1303,56,One year,DSL,81.66,6,Electronic Check,0,267.3,No
+1304,68,One year,DSL,24.03,18,Bank Transfer,0,201.3,No
+1305,23,Monthly,Fiber,52.62,10,Bank Transfer,3,186.9,Yes
+1306,23,One year,Fiber,66.86,11,Mailed Check,1,189.6,Yes
+1307,20,Monthly,DSL,34.8,65,Mailed Check,0,92.4,Yes
+1308,24,Two year,Fiber,118.47,65,Electronic Check,1,127.5,No
+1309,68,One year,DSL,40.91,52,Bank Transfer,3,240.8,Yes
+1310,25,Monthly,Fiber,33.04,67,Bank Transfer,2,95.4,No
+1311,59,One year,Fiber,40.35,31,Credit Card,1,143.7,No
+1312,69,Monthly,Fiber,96.91,17,Credit Card,1,10.8,No
+1313,32,One year,Fiber,62.55,55,Credit Card,1,221.4,No
+1314,64,Monthly,Fiber,76.54,36,Electronic Check,1,128.2,No
+1315,46,Monthly,DSL,22.1,26,Mailed Check,2,160.0,No
+1316,50,Two year,Fiber,23.44,53,Electronic Check,3,38.8,No
+1317,69,Monthly,DSL,64.58,17,Bank Transfer,2,297.6,No
+1318,47,One year,Fiber,101.67,25,Mailed Check,0,94.2,No
+1319,56,Monthly,Fiber,108.52,2,Credit Card,1,192.3,No
+1320,44,One year,Fiber,28.67,5,Electronic Check,0,176.5,No
+1321,53,One year,DSL,73.84,4,Electronic Check,2,236.6,No
+1322,46,Monthly,Fiber,111.32,36,Credit Card,3,91.7,No
+1323,55,Monthly,DSL,58.8,6,Electronic Check,0,228.0,Yes
+1324,74,Monthly,Fiber,102.96,21,Credit Card,0,117.8,No
+1325,50,Monthly,DSL,33.37,26,Bank Transfer,1,126.3,Yes
+1326,54,Monthly,Fiber,113.54,55,Mailed Check,2,203.5,No
+1327,44,One year,DSL,95.14,39,Bank Transfer,1,236.4,No
+1328,72,Two year,DSL,114.13,33,Bank Transfer,2,201.7,Yes
+1329,50,Two year,None,87.66,14,Credit Card,3,270.5,No
+1330,21,One year,Fiber,56.34,56,Electronic Check,1,89.1,No
+1331,39,One year,Fiber,113.82,21,Bank Transfer,3,270.7,No
+1332,19,One year,Fiber,47.56,46,Bank Transfer,0,43.6,No
+1333,27,Monthly,DSL,53.22,16,Bank Transfer,0,199.6,No
+1334,22,Two year,DSL,90.08,16,Electronic Check,1,166.6,No
+1335,27,One year,DSL,96.53,29,Electronic Check,0,150.9,Yes
+1336,50,Monthly,Fiber,112.94,8,Credit Card,3,96.7,Yes
+1337,71,Monthly,Fiber,40.48,3,Bank Transfer,2,153.6,No
+1338,55,Monthly,Fiber,99.8,19,Mailed Check,0,52.7,Yes
+1339,30,Monthly,None,93.85,66,Electronic Check,2,113.9,No
+1340,48,Two year,DSL,26.38,22,Credit Card,1,34.1,No
+1341,64,Monthly,None,58.72,46,Bank Transfer,0,173.7,No
+1342,53,Monthly,Fiber,48.28,13,Mailed Check,4,33.3,No
+1343,62,Two year,DSL,50.45,33,Electronic Check,1,52.3,No
+1344,41,Monthly,DSL,118.29,5,Mailed Check,1,30.2,No
+1345,69,Monthly,Fiber,84.28,27,Electronic Check,0,117.5,No
+1346,73,Monthly,DSL,91.77,24,Credit Card,2,253.4,Yes
+1347,32,One year,None,117.66,67,Mailed Check,1,272.5,No
+1348,46,Two year,DSL,57.72,63,Bank Transfer,0,26.2,No
+1349,25,Monthly,DSL,100.18,48,Bank Transfer,3,192.2,No
+1350,22,Two year,Fiber,63.45,63,Electronic Check,0,206.9,No
+1351,46,Monthly,Fiber,106.95,12,Bank Transfer,3,162.5,No
+1352,64,Two year,None,38.07,28,Mailed Check,4,201.8,No
+1353,21,One year,Fiber,114.77,44,Credit Card,3,73.9,No
+1354,29,One year,DSL,41.88,43,Electronic Check,2,149.4,Yes
+1355,62,Monthly,DSL,52.62,17,Mailed Check,0,120.3,No
+1356,19,Two year,DSL,95.62,40,Electronic Check,3,31.5,No
+1357,44,One year,None,59.38,49,Credit Card,1,189.5,No
+1358,48,Monthly,Fiber,80.82,57,Electronic Check,0,151.1,No
+1359,68,One year,Fiber,64.46,64,Bank Transfer,3,86.2,No
+1360,68,Monthly,Fiber,94.24,57,Bank Transfer,1,144.7,No
+1361,53,Two year,Fiber,42.83,70,Electronic Check,0,233.7,Yes
+1362,53,Monthly,Fiber,25.85,43,Credit Card,4,241.5,No
+1363,43,One year,Fiber,49.99,23,Credit Card,1,196.6,No
+1364,60,Monthly,DSL,67.43,27,Bank Transfer,0,143.0,No
+1365,44,Monthly,None,36.8,58,Credit Card,2,174.8,Yes
+1366,22,Monthly,Fiber,55.48,37,Electronic Check,0,118.6,No
+1367,37,Monthly,Fiber,60.0,6,Mailed Check,2,42.3,No
+1368,28,Monthly,None,25.74,65,Electronic Check,1,118.8,No
+1369,27,Monthly,Fiber,78.33,6,Bank Transfer,1,161.4,No
+1370,57,Monthly,Fiber,108.43,50,Bank Transfer,0,181.7,No
+1371,55,Monthly,Fiber,35.17,22,Bank Transfer,3,281.1,No
+1372,23,Monthly,DSL,79.78,25,Credit Card,0,234.3,No
+1373,25,One year,Fiber,86.47,51,Electronic Check,1,49.8,No
+1374,40,Monthly,None,61.93,48,Mailed Check,0,56.4,No
+1375,64,Two year,Fiber,90.11,70,Electronic Check,2,34.6,No
+1376,43,Two year,DSL,61.07,65,Mailed Check,1,222.8,No
+1377,63,One year,Fiber,70.46,60,Electronic Check,1,213.3,Yes
+1378,60,Monthly,Fiber,20.74,46,Bank Transfer,2,296.0,No
+1379,29,Two year,DSL,89.17,36,Mailed Check,3,159.0,No
+1380,43,Monthly,DSL,86.13,58,Electronic Check,1,248.8,No
+1381,30,Monthly,DSL,23.84,38,Credit Card,5,175.0,No
+1382,57,Monthly,DSL,56.83,11,Credit Card,2,262.9,No
+1383,35,One year,None,117.9,12,Electronic Check,1,217.7,No
+1384,42,Monthly,DSL,62.07,42,Bank Transfer,0,194.7,No
+1385,50,Monthly,DSL,70.19,39,Mailed Check,2,171.7,No
+1386,64,Two year,Fiber,110.99,71,Electronic Check,3,218.3,No
+1387,57,Two year,Fiber,91.73,11,Credit Card,4,128.8,No
+1388,60,Monthly,Fiber,78.21,36,Mailed Check,1,33.5,Yes
+1389,29,Monthly,DSL,99.78,52,Credit Card,1,16.8,No
+1390,61,One year,Fiber,106.44,31,Credit Card,1,146.3,No
+1391,53,Monthly,Fiber,65.69,33,Electronic Check,0,181.8,No
+1392,65,Monthly,DSL,67.51,13,Credit Card,1,28.3,No
+1393,21,Monthly,DSL,58.61,18,Mailed Check,3,89.6,No
+1394,22,Two year,None,116.67,41,Bank Transfer,1,100.0,No
+1395,73,One year,Fiber,89.72,58,Electronic Check,1,171.0,No
+1396,54,One year,DSL,28.32,56,Mailed Check,3,87.2,No
+1397,25,Two year,Fiber,106.3,24,Electronic Check,1,33.2,No
+1398,59,Monthly,Fiber,68.06,31,Credit Card,1,53.6,No
+1399,66,Monthly,Fiber,26.88,55,Credit Card,1,56.3,No
+1400,45,Monthly,Fiber,74.97,10,Mailed Check,4,253.6,Yes
+1401,48,Monthly,Fiber,61.72,60,Mailed Check,4,88.9,No
+1402,26,Monthly,DSL,107.77,2,Bank Transfer,0,215.8,No
+1403,71,One year,Fiber,40.4,15,Mailed Check,1,172.5,Yes
+1404,68,One year,DSL,102.65,3,Mailed Check,3,293.2,No
+1405,46,Two year,DSL,75.77,43,Electronic Check,1,85.5,No
+1406,31,Monthly,Fiber,25.46,31,Credit Card,1,51.7,No
+1407,57,One year,Fiber,117.18,70,Mailed Check,2,20.4,No
+1408,58,One year,Fiber,71.26,67,Bank Transfer,1,76.1,No
+1409,39,Monthly,DSL,49.09,56,Mailed Check,1,206.8,No
+1410,28,One year,Fiber,66.94,63,Credit Card,1,30.2,No
+1411,40,Monthly,Fiber,105.79,15,Mailed Check,1,77.2,Yes
+1412,18,Monthly,Fiber,50.49,10,Electronic Check,2,257.3,No
+1413,63,Monthly,DSL,39.27,38,Credit Card,2,177.0,Yes
+1414,54,Monthly,None,32.91,47,Mailed Check,0,25.5,No
+1415,38,Monthly,Fiber,49.79,57,Electronic Check,1,19.1,No
+1416,43,One year,DSL,98.0,50,Credit Card,0,23.0,No
+1417,63,Two year,DSL,67.16,71,Mailed Check,1,282.9,No
+1418,53,One year,None,42.75,15,Electronic Check,1,255.7,No
+1419,71,One year,DSL,36.62,18,Bank Transfer,2,254.3,Yes
+1420,40,Monthly,DSL,53.27,2,Electronic Check,0,277.6,Yes
+1421,74,One year,DSL,113.99,43,Bank Transfer,2,154.1,No
+1422,18,Monthly,DSL,54.3,26,Mailed Check,2,78.0,No
+1423,71,Monthly,Fiber,118.81,71,Electronic Check,4,123.4,No
+1424,72,Monthly,Fiber,68.52,38,Bank Transfer,2,217.1,No
+1425,68,Monthly,Fiber,37.92,42,Credit Card,1,263.4,No
+1426,57,Monthly,DSL,109.11,5,Electronic Check,0,133.4,No
+1427,32,Monthly,DSL,66.04,11,Mailed Check,1,162.9,Yes
+1428,38,Monthly,Fiber,90.97,65,Credit Card,1,279.9,No
+1429,64,Two year,DSL,118.37,34,Bank Transfer,1,36.7,Yes
+1430,26,Monthly,Fiber,25.02,1,Electronic Check,0,259.4,No
+1431,70,Monthly,Fiber,29.67,2,Electronic Check,1,52.0,No
+1432,26,Monthly,None,92.05,20,Mailed Check,1,147.7,No
+1433,27,One year,Fiber,48.18,61,Credit Card,4,69.4,No
+1434,69,Monthly,Fiber,38.43,21,Electronic Check,2,182.9,Yes
+1435,74,Monthly,DSL,23.94,68,Electronic Check,0,169.8,Yes
+1436,70,Monthly,DSL,22.18,12,Credit Card,0,117.1,No
+1437,43,Monthly,Fiber,97.45,22,Electronic Check,2,259.7,Yes
+1438,58,Monthly,DSL,33.44,20,Credit Card,1,199.6,No
+1439,52,Monthly,DSL,66.77,1,Credit Card,1,217.8,No
+1440,69,Monthly,Fiber,80.59,30,Credit Card,4,49.4,No
+1441,42,Monthly,Fiber,62.84,24,Mailed Check,0,265.5,Yes
+1442,43,Monthly,DSL,22.71,14,Credit Card,3,54.3,No
+1443,28,One year,Fiber,98.35,36,Credit Card,0,70.7,Yes
+1444,55,Monthly,None,21.05,69,Bank Transfer,1,42.8,No
+1445,19,Monthly,DSL,96.19,24,Bank Transfer,0,134.9,Yes
+1446,24,Monthly,None,109.33,60,Mailed Check,2,266.9,No
+1447,35,Two year,Fiber,63.28,55,Credit Card,2,79.5,No
+1448,44,Monthly,None,73.55,24,Bank Transfer,2,115.3,No
+1449,51,Monthly,Fiber,67.7,24,Bank Transfer,3,254.6,No
+1450,44,One year,Fiber,58.92,54,Electronic Check,4,187.3,No
+1451,34,Monthly,Fiber,108.74,26,Credit Card,3,226.7,Yes
+1452,60,Monthly,Fiber,109.39,66,Bank Transfer,4,68.1,Yes
+1453,61,Monthly,DSL,53.58,38,Mailed Check,5,216.4,No
+1454,68,Two year,Fiber,81.51,65,Electronic Check,1,72.1,No
+1455,71,Monthly,Fiber,112.69,51,Electronic Check,2,296.3,No
+1456,41,One year,DSL,116.21,35,Credit Card,0,170.2,No
+1457,42,Two year,Fiber,70.9,43,Credit Card,0,210.2,No
+1458,24,Monthly,DSL,65.28,29,Electronic Check,0,39.9,No
+1459,69,Monthly,Fiber,47.87,37,Mailed Check,0,78.9,No
+1460,23,Monthly,DSL,115.89,58,Credit Card,1,46.2,No
+1461,70,Monthly,DSL,34.28,54,Credit Card,0,120.1,No
+1462,41,Monthly,Fiber,77.98,39,Electronic Check,0,88.8,No
+1463,50,Two year,Fiber,48.26,42,Electronic Check,2,221.2,No
+1464,66,One year,Fiber,47.9,28,Credit Card,2,37.1,No
+1465,46,One year,DSL,60.5,29,Bank Transfer,1,226.9,No
+1466,60,Monthly,Fiber,119.88,43,Credit Card,1,18.5,Yes
+1467,39,One year,Fiber,25.5,3,Bank Transfer,1,64.6,No
+1468,43,Two year,Fiber,77.85,10,Electronic Check,2,238.6,No
+1469,45,One year,Fiber,28.26,59,Bank Transfer,1,224.1,No
+1470,67,Monthly,Fiber,35.45,14,Mailed Check,1,145.5,No
+1471,38,One year,DSL,63.96,47,Electronic Check,0,19.7,No
+1472,66,Monthly,Fiber,71.05,42,Credit Card,2,184.9,No
+1473,24,Monthly,Fiber,45.88,32,Credit Card,0,125.0,No
+1474,34,Monthly,DSL,51.65,32,Electronic Check,1,98.4,Yes
+1475,37,One year,DSL,28.7,42,Electronic Check,1,193.9,No
+1476,58,One year,Fiber,50.32,32,Mailed Check,1,133.8,Yes
+1477,66,Monthly,Fiber,116.66,26,Electronic Check,0,32.3,Yes
+1478,37,Monthly,Fiber,114.47,1,Credit Card,1,275.2,No
+1479,71,Monthly,None,53.49,56,Mailed Check,2,234.7,No
+1480,39,Monthly,Fiber,77.09,2,Credit Card,1,21.6,No
+1481,45,Monthly,None,110.96,30,Bank Transfer,4,159.9,No
+1482,57,Monthly,DSL,20.62,71,Electronic Check,1,29.6,Yes
+1483,66,One year,DSL,101.07,52,Bank Transfer,1,252.0,No
+1484,24,Monthly,Fiber,114.84,9,Credit Card,3,185.8,Yes
+1485,18,Monthly,Fiber,29.13,22,Bank Transfer,3,55.9,Yes
+1486,49,Monthly,Fiber,36.14,34,Bank Transfer,1,11.1,Yes
+1487,30,Two year,Fiber,116.07,49,Credit Card,1,14.3,No
+1488,47,One year,DSL,73.75,1,Credit Card,0,154.7,Yes
+1489,40,One year,None,21.42,53,Electronic Check,2,221.6,No
+1490,68,Monthly,DSL,45.76,40,Bank Transfer,0,40.6,No
+1491,73,Monthly,DSL,64.99,45,Mailed Check,2,70.3,No
+1492,36,Monthly,Fiber,89.29,68,Mailed Check,0,101.5,No
+1493,49,One year,Fiber,93.32,9,Credit Card,0,69.3,No
+1494,47,Two year,Fiber,119.54,22,Credit Card,2,120.4,No
+1495,46,One year,DSL,48.75,18,Bank Transfer,1,170.1,No
+1496,66,Two year,None,73.82,43,Credit Card,2,207.1,No
+1497,62,One year,DSL,73.33,39,Mailed Check,2,289.3,No
+1498,46,Monthly,Fiber,60.56,6,Electronic Check,2,279.6,No
+1499,47,Two year,Fiber,36.92,48,Electronic Check,3,173.2,No
+1500,33,Monthly,DSL,117.75,7,Bank Transfer,1,221.6,No
